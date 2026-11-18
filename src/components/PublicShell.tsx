@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cpu, Menu, MessageCircle, Moon, Sun, X } from 'lucide-react';
+import { Cpu, Download, FileText, Menu, MessageCircle, Moon, Sun, X } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 export function PublicShell({ children }: { children: React.ReactNode }) {
@@ -254,16 +254,26 @@ export function PublicShell({ children }: { children: React.ReactNode }) {
                 </p>
                 <p>{settings?.supportEmail || 'admissions@ektechsolutions.com'}</p>
               </div>
-              <div className="pt-2 flex flex-wrap gap-4 text-xs text-slate-400">
-                <button type="button" onClick={() => navigate('/terms')} className="hover:text-white cursor-pointer">
-                  Terms &amp; Conditions
-                </button>
-                <button type="button" onClick={() => navigate('/privacy')} className="hover:text-white cursor-pointer">
-                  Privacy Policy
-                </button>
-                <button type="button" onClick={() => navigate('/contact')} className="hover:text-white cursor-pointer">
-                  Contact Us
-                </button>
+              <div className="pt-2 flex flex-col gap-2">
+                <a
+                  href="/downloads/EK_TECH_SOLUTIONS_Architecture_Report.docx"
+                  download="EK_TECH_SOLUTIONS_Architecture_Report.docx"
+                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white text-xs font-bold shadow-sm transition-all w-fit cursor-pointer"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span>Download Architecture Report (Word .docx)</span>
+                </a>
+                <div className="flex flex-wrap gap-4 text-xs text-slate-400">
+                  <button type="button" onClick={() => navigate('/terms')} className="hover:text-white cursor-pointer">
+                    Terms &amp; Conditions
+                  </button>
+                  <button type="button" onClick={() => navigate('/privacy')} className="hover:text-white cursor-pointer">
+                    Privacy Policy
+                  </button>
+                  <button type="button" onClick={() => navigate('/contact')} className="hover:text-white cursor-pointer">
+                    Contact Us
+                  </button>
+                </div>
               </div>
             </div>
           </div>

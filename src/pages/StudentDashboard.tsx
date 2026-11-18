@@ -26,6 +26,7 @@ import {
   CertificateModal,
   CourseThumbnail,
   MoMoPaymentModal,
+  PasswordInput,
   StatusIndicator,
 } from '../components/UiPrimitives';
 import { LearningRoom } from './LearningRoom';
@@ -1311,8 +1312,7 @@ export function StudentDashboard() {
                 {profileStatus}
               </div>
             )}
-            <input
-              type="password"
+            <PasswordInput
               minLength={8}
               required
               placeholder="New strong password (e.g. Secure@2026!)"

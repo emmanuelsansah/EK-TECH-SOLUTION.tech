@@ -144,7 +144,9 @@ export const DEFAULT_FALLBACK_BOOTSTRAP: PublicBootstrap = {
         "Familiarity with office productivity tools (Docs, Sheets, Email)"
       ],
       "completionRequirement": "Complete all modules and pass the AI Systems Assessment.",
-      "createdAt": "2026-10-15T09:00:00+00:00"
+      "createdAt": "2026-10-15T09:00:00+00:00",
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "AI for Business & Workflows (Google Drive)"
     },
     {
       "id": "crs-4",
@@ -170,7 +172,9 @@ export const DEFAULT_FALLBACK_BOOTSTRAP: PublicBootstrap = {
         "Basic web browsing skills"
       ],
       "completionRequirement": "Complete all modules and score 75%+ on the Prompt Engineering Exam.",
-      "createdAt": "2026-10-15T09:00:00+00:00"
+      "createdAt": "2026-10-15T09:00:00+00:00",
+      "driveFolderId": "1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro",
+      "driveFolderName": "Applied Prompt Engineering Studio (Google Drive)"
     },
     {
       "id": "crs-5",
@@ -224,7 +228,9 @@ export const DEFAULT_FALLBACK_BOOTSTRAP: PublicBootstrap = {
         "Basic familiarity with HTML/CSS or completion of AI Website Development"
       ],
       "completionRequirement": "Complete all lessons and deploy a full-stack capstone.",
-      "createdAt": "2026-10-15T09:00:00+00:00"
+      "createdAt": "2026-10-15T09:00:00+00:00",
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "Full-Stack Web & TypeScript Code (Google Drive)"
     },
     {
       "id": "crs-7",
@@ -250,7 +256,9 @@ export const DEFAULT_FALLBACK_BOOTSTRAP: PublicBootstrap = {
         "Access to a computer or tablet"
       ],
       "completionRequirement": "Complete all lessons and the Digital Literacy Quiz.",
-      "createdAt": "2026-10-15T09:00:00+00:00"
+      "createdAt": "2026-10-15T09:00:00+00:00",
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "Digital Skills & Computer Essentials (Google Drive)"
     },
     {
       "id": "crs-8",
@@ -276,7 +284,9 @@ export const DEFAULT_FALLBACK_BOOTSTRAP: PublicBootstrap = {
         "Active smartphone or laptop"
       ],
       "completionRequirement": "Complete all lessons and submit a campaign brief.",
-      "createdAt": "2026-10-15T09:00:00+00:00"
+      "createdAt": "2026-10-15T09:00:00+00:00",
+      "driveFolderId": "1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ",
+      "driveFolderName": "AI Digital Marketing & Video Templates (Google Drive)"
     }
   ],
   "instructors": [

@@ -7,6 +7,8 @@ import {
   ChevronDown,
   Clock,
   Code2,
+  Download,
+  FileText,
   Film,
   GraduationCap,
   KeyRound,
@@ -28,7 +30,7 @@ import {
 import { apiFetch } from '../lib/api';
 import { getSupabase } from '../lib/supabase';
 import { useApp } from '../context/AppContext';
-import { CourseThumbnail, MoMoPaymentModal } from '../components/UiPrimitives';
+import { CourseThumbnail, MoMoPaymentModal, PasswordInput } from '../components/UiPrimitives';
 import type { Course, EmailPreviewPayload, Lesson, Module, User } from '../types';
 
 export function CourseCard({
@@ -1152,6 +1154,62 @@ export function AboutPage() {
         </div>
       </div>
 
+      {/* Technical Specifications & Downloadable Word Architecture Report */}
+      <div className="p-6 sm:p-8 rounded-3xl border border-orange-500/20 bg-gradient-to-br from-[#FFF7F0] via-white to-orange-50/50 dark:from-slate-900 dark:via-[#161B22] dark:to-orange-950/20 space-y-6">
+        <div className="space-y-2">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 text-orange-600 dark:text-orange-400 text-xs font-bold uppercase tracking-wider">
+            <Code2 className="w-3.5 h-3.5" />
+            <span>Languages & Architecture Specifications</span>
+          </div>
+          <h2 className="text-xl sm:text-2xl font-extrabold text-[#111827] dark:text-white">
+            Built with Modern, Strongly Typed Engineering
+          </h2>
+          <p className="text-sm text-[#4B5563] dark:text-slate-300 leading-relaxed max-w-3xl">
+            EK TECH SOLUTIONS is engineered using a robust full-stack architecture designed for high security, speed, and cross-platform reliability:
+          </p>
+        </div>
+
+        {/* 4-Box Language Strip */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+          <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs">
+            <div className="text-sm font-bold text-orange-600 dark:text-orange-400 font-mono">TypeScript</div>
+            <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">Full-stack type safety &amp; contracts</div>
+          </div>
+          <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs">
+            <div className="text-sm font-bold text-sky-600 dark:text-sky-400 font-mono">React 19</div>
+            <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">Declarative interactive UI</div>
+          </div>
+          <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs">
+            <div className="text-sm font-bold text-emerald-600 dark:text-emerald-400 font-mono">Node.js + Express</div>
+            <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">Serverless REST API &amp; Paystack</div>
+          </div>
+          <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs">
+            <div className="text-sm font-bold text-indigo-600 dark:text-indigo-400 font-mono">PostgreSQL</div>
+            <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">Supabase relational database</div>
+          </div>
+        </div>
+
+        {/* Action Download Buttons */}
+        <div className="pt-2 flex flex-wrap items-center gap-3">
+          <a
+            href="/downloads/EK_TECH_SOLUTIONS_Architecture_Report.docx"
+            download="EK_TECH_SOLUTIONS_Architecture_Report.docx"
+            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-[#EA580C] hover:bg-[#D44E07] text-white text-sm font-semibold shadow-sm transition-colors cursor-pointer"
+          >
+            <Download className="w-4 h-4" />
+            <span>Download Architecture Report (.docx)</span>
+          </a>
+          <a
+            href="/downloads/EK_TECH_SOLUTIONS_Architecture_Report.doc"
+            download="EK_TECH_SOLUTIONS_Architecture_Report.doc"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-semibold transition-colors cursor-pointer"
+          >
+            <FileText className="w-4 h-4" />
+            <span>Download Word .doc Version</span>
+          </a>
+        </div>
+      </div>
+
       <div className="flex flex-wrap gap-4">
         <button
           type="button"
@@ -1924,8 +1982,7 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' | 'forgot' }) {
               </div>
               <div>
                 <label className="block text-xs font-medium mb-1">Password</label>
-                <input
-                  type="password"
+                <PasswordInput
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
@@ -2032,8 +2089,7 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' | 'forgot' }) {
               </div>
               <div className="space-y-2">
                 <label className="block text-xs font-medium">Strong Password *</label>
-                <input
-                  type="password"
+                <PasswordInput
                   required
                   minLength={8}
                   value={password}
@@ -2094,8 +2150,7 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' | 'forgot' }) {
                   </div>
                   <div className="space-y-2">
                     <label className="block text-xs font-medium">New Strong Password *</label>
-                    <input
-                      type="password"
+                    <PasswordInput
                       required
                       minLength={8}
                       value={password}

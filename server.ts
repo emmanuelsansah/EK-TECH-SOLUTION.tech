@@ -62,10 +62,26 @@ const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
 
-// Ensure all incoming requests under Vercel serverless keep the /api prefix for Express router
+// Ensure all incoming requests under Vercel serverless preserve their full /api/* path
 app.use((req, _res, next) => {
-  if (process.env.VERCEL && req.url && !req.url.startsWith('/api')) {
-    req.url = '/api' + (req.url.startsWith('/') ? req.url : '/' + req.url);
+  if (process.env.VERCEL) {
+    const rawUrl = String(req.url || '/');
+    const queryIdx = rawUrl.indexOf('?');
+    const rawQuery = queryIdx >= 0 ? rawUrl.slice(queryIdx + 1) : '';
+    const searchParams = new URLSearchParams(rawQuery);
+    const rewrittenApiPath = searchParams.get('__api_path');
+    if (rewrittenApiPath) {
+      searchParams.delete('__api_path');
+      const cleanPath = rewrittenApiPath.startsWith('/api')
+        ? rewrittenApiPath
+        : '/api' + (rewrittenApiPath.startsWith('/') ? rewrittenApiPath : '/' + rewrittenApiPath);
+      const qs = searchParams.toString();
+      req.url = qs ? `${cleanPath}?${qs}` : cleanPath;
+    } else if (req.originalUrl && req.originalUrl.startsWith('/api/') && !req.originalUrl.startsWith('/api/[...')) {
+      req.url = req.originalUrl;
+    } else if (req.url && !req.url.startsWith('/api') && !req.url.startsWith('/assets') && !req.url.startsWith('/downloads')) {
+      req.url = '/api' + (req.url.startsWith('/') ? req.url : '/' + req.url);
+    }
   }
   next();
 });
@@ -1281,6 +1297,47 @@ app.get('/api/materials/:lessonId/download', requireAuth(), (req: AuthenticatedR
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', `attachment; filename="${safeFilename}"`);
   res.send(pdfBuffer);
+});
+
+app.get('/api/reports/download-word', (_req, res) => {
+  const docxCandidates = [
+    path.resolve(process.cwd(), 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.docx'),
+    path.resolve(process.cwd(), 'dist', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.docx'),
+    path.resolve(import.meta.dirname || process.cwd(), '..', 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.docx'),
+    path.resolve(import.meta.dirname || process.cwd(), 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.docx'),
+  ];
+  const file = docxCandidates.find((f) => fs.existsSync(f));
+  if (!file) {
+    return res.status(404).json({ error: 'Architecture report file not found.' });
+  }
+  res.setHeader(
+    'Content-Type',
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+  );
+  res.setHeader(
+    'Content-Disposition',
+    'attachment; filename="EK_TECH_SOLUTIONS_Architecture_Report.docx"'
+  );
+  fs.createReadStream(file).pipe(res);
+});
+
+app.get('/api/reports/download-doc', (_req, res) => {
+  const docCandidates = [
+    path.resolve(process.cwd(), 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.doc'),
+    path.resolve(process.cwd(), 'dist', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.doc'),
+    path.resolve(import.meta.dirname || process.cwd(), '..', 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.doc'),
+    path.resolve(import.meta.dirname || process.cwd(), 'public', 'downloads', 'EK_TECH_SOLUTIONS_Architecture_Report.doc'),
+  ];
+  const file = docCandidates.find((f) => fs.existsSync(f));
+  if (!file) {
+    return res.status(404).json({ error: 'Architecture report file not found.' });
+  }
+  res.setHeader('Content-Type', 'application/msword');
+  res.setHeader(
+    'Content-Disposition',
+    'attachment; filename="EK_TECH_SOLUTIONS_Architecture_Report.doc"'
+  );
+  fs.createReadStream(file).pipe(res);
 });
 
 // ============================================================================

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "users": [
     {
       "id": "usr-admin-1",
@@ -17,8 +17,8 @@
       "twoFactorEnabled": true,
       "tokenVersion": 1,
       "failedLoginAttempts": 0,
-      "createdAt": "2026-08-01T08:00:00.000Z",
-      "lastLoginAt": "2026-11-18T09:56:14.968Z"
+      "lastLoginAt": "2026-11-18T11:52:07.584+00:00",
+      "createdAt": "2026-08-01T08:00:00+00:00"
     },
     {
       "id": "usr-inst-1",
@@ -36,7 +36,7 @@
       "twoFactorEnabled": true,
       "tokenVersion": 1,
       "failedLoginAttempts": 0,
-      "createdAt": "2026-08-05T09:00:00.000Z"
+      "createdAt": "2026-08-05T09:00:00+00:00"
     },
     {
       "id": "usr-stu-1",
@@ -54,7 +54,7 @@
       "twoFactorEnabled": true,
       "tokenVersion": 1,
       "failedLoginAttempts": 0,
-      "createdAt": "2026-09-12T14:20:00.000Z"
+      "createdAt": "2026-09-12T14:20:00+00:00"
     },
     {
       "id": "usr-stu-2",
@@ -72,7 +72,7 @@
       "twoFactorEnabled": true,
       "tokenVersion": 1,
       "failedLoginAttempts": 0,
-      "createdAt": "2026-09-20T16:10:00.000Z"
+      "createdAt": "2026-09-20T16:10:00+00:00"
     }
   ],
   "categories": [
@@ -149,6 +149,7 @@
       "difficulty": "Beginner",
       "isPublished": true,
       "isFeatured": true,
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
       "driveFolderName": "AI Website Development Tutorials (Google Drive)",
       "learningObjectives": [
         "Follow the step-by-step AI Web Design curriculum from Lesson 1 free orientation",
@@ -161,8 +162,7 @@
         "Valid sign-up Gmail address to receive full Google Drive video access after payment"
       ],
       "completionRequirement": "Watch Lesson 1 free, complete GH₵ 50 MTN MoMo payment to unlock all remaining videos, and finish the course quiz.",
-      "createdAt": "2026-10-15T09:00:00.000Z",
-      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-2",
@@ -179,6 +179,7 @@
       "difficulty": "Beginner",
       "isPublished": true,
       "isFeatured": true,
+      "driveFolderId": "1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ",
       "driveFolderName": "AI Video Creation Tutorials (Google Drive)",
       "learningObjectives": [
         "Write high-retention video scripts and shot lists with AI tools",
@@ -191,8 +192,7 @@
         "Valid sign-up email address for post-payment video folder access"
       ],
       "completionRequirement": "Unlock all modules via GH₵ 50 MoMo verification and submit your 45-second commercial project.",
-      "createdAt": "2026-10-15T09:00:00.000Z",
-      "driveFolderId": "1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-3",
@@ -209,6 +209,8 @@
       "difficulty": "Intermediate",
       "isPublished": true,
       "isFeatured": true,
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "AI for Business & Workflows (Google Drive)",
       "learningObjectives": [
         "Design repeatable AI workflows for reporting, research, and curriculum design",
         "Evaluate AI outputs for factual accuracy and institutional compliance",
@@ -218,7 +220,7 @@
         "Familiarity with office productivity tools (Docs, Sheets, Email)"
       ],
       "completionRequirement": "Complete all modules and pass the AI Systems Assessment.",
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-4",
@@ -235,6 +237,8 @@
       "difficulty": "Beginner",
       "isPublished": true,
       "isFeatured": true,
+      "driveFolderId": "1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro",
+      "driveFolderName": "Applied Prompt Engineering Studio (Google Drive)",
       "learningObjectives": [
         "Apply role, context, constraint, and output-format frameworks",
         "Use few-shot examples to enforce consistent tone and structure",
@@ -244,7 +248,7 @@
         "Basic web browsing skills"
       ],
       "completionRequirement": "Complete all modules and score 75%+ on the Prompt Engineering Exam.",
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-5",
@@ -261,6 +265,8 @@
       "difficulty": "Beginner",
       "isPublished": true,
       "isFeatured": true,
+      "driveFolderId": "1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro",
+      "driveFolderName": "Graphic Design Prompts & Tutorials (Google Drive)",
       "learningObjectives": [
         "Construct balanced typographic hierarchies and grid layouts",
         "Design vector logo marks and cohesive brand color systems",
@@ -270,9 +276,7 @@
         "Laptop or desktop computer"
       ],
       "completionRequirement": "Submit a complete 5-page Brand Identity Guide.",
-      "createdAt": "2026-10-15T09:00:00.000Z",
-      "driveFolderId": "1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro",
-      "driveFolderName": "Graphic Design Prompts & Tutorials (Google Drive)"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-6",
@@ -288,7 +292,9 @@
       "duration": "10 Weeks",
       "difficulty": "Intermediate",
       "isPublished": true,
-      "isFeatured": false,
+      "isFeatured": true,
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "Full-Stack Web & TypeScript Code (Google Drive)",
       "learningObjectives": [
         "Build type-safe React applications with hooks and state management",
         "Design REST APIs with Express and PostgreSQL/Supabase",
@@ -298,7 +304,7 @@
         "Basic familiarity with HTML/CSS or completion of AI Website Development"
       ],
       "completionRequirement": "Complete all lessons and deploy a full-stack capstone.",
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-7",
@@ -314,7 +320,9 @@
       "duration": "3 Weeks",
       "difficulty": "Beginner",
       "isPublished": true,
-      "isFeatured": false,
+      "isFeatured": true,
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN",
+      "driveFolderName": "Digital Skills & Computer Essentials (Google Drive)",
       "learningObjectives": [
         "Organize cloud drives, documents, and collaborative spreadsheets",
         "Protect personal and workplace accounts against phishing and scams",
@@ -324,7 +332,7 @@
         "Access to a computer or tablet"
       ],
       "completionRequirement": "Complete all lessons and the Digital Literacy Quiz.",
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "crs-8",
@@ -340,7 +348,9 @@
       "duration": "4 Weeks",
       "difficulty": "Beginner",
       "isPublished": true,
-      "isFeatured": false,
+      "isFeatured": true,
+      "driveFolderId": "1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ",
+      "driveFolderName": "AI Digital Marketing & Video Templates (Google Drive)",
       "learningObjectives": [
         "Build a 30-day multi-channel content and campaign calendar",
         "Design high-converting landing offers and WhatsApp follow-up flows",
@@ -350,10 +360,31 @@
         "Active smartphone or laptop"
       ],
       "completionRequirement": "Complete all lessons and submit a campaign brief.",
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     }
   ],
   "modules": [
+    {
+      "id": "mod-11",
+      "courseId": "crs-8",
+      "title": "Module 1: Conversion Funnels & Campaign Analytics",
+      "description": "Structured digital marketing for online brands.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-9",
+      "courseId": "crs-6",
+      "title": "Module 1: TypeScript, React & API Architecture",
+      "description": "Modern full-stack engineering fundamentals.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-10",
+      "courseId": "crs-7",
+      "title": "Module 1: Core Workplace Computer Fluency",
+      "description": "Essential cloud productivity, spreadsheets, and security habits.",
+      "orderIndex": 1
+    },
     {
       "id": "mod-1",
       "courseId": "crs-1",
@@ -362,32 +393,11 @@
       "orderIndex": 1
     },
     {
-      "id": "mod-2",
-      "courseId": "crs-1",
-      "title": "2) DETAILED TUTORIAL & OTHER WEBSITE EXAMPLES (Paid Google Drive Access)",
-      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
-      "orderIndex": 2
-    },
-    {
-      "id": "mod-3",
-      "courseId": "crs-1",
-      "title": "3) HOSTING YOUR WEBSITE, DOMAIN NAME, ANDROID APP & BONUSES (Paid Google Drive Access)",
-      "description": "Live hosting, custom domain linking, Android packaging, and troubleshooting.",
-      "orderIndex": 3
-    },
-    {
       "id": "mod-4",
       "courseId": "crs-2",
       "title": "1) WATCH THIS — Free Intro & Storyboarding Overview",
       "description": "Free preview lesson explaining the AI Video Creation workflow.",
       "orderIndex": 1
-    },
-    {
-      "id": "mod-5",
-      "courseId": "crs-2",
-      "title": "2) FULL AI VIDEO PRODUCTION PIPELINE (Paid Google Drive Access)",
-      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
-      "orderIndex": 2
     },
     {
       "id": "mod-6",
@@ -411,28 +421,42 @@
       "orderIndex": 1
     },
     {
-      "id": "mod-9",
-      "courseId": "crs-6",
-      "title": "Module 1: TypeScript, React & API Architecture",
-      "description": "Modern full-stack engineering fundamentals.",
-      "orderIndex": 1
+      "id": "mod-2",
+      "courseId": "crs-1",
+      "title": "2) DETAILED TUTORIAL & OTHER WEBSITE EXAMPLES (Paid Google Drive Access)",
+      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
+      "orderIndex": 2
     },
     {
-      "id": "mod-10",
-      "courseId": "crs-7",
-      "title": "Module 1: Core Workplace Computer Fluency",
-      "description": "Essential cloud productivity, spreadsheets, and security habits.",
-      "orderIndex": 1
+      "id": "mod-5",
+      "courseId": "crs-2",
+      "title": "2) FULL AI VIDEO PRODUCTION PIPELINE (Paid Google Drive Access)",
+      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
+      "orderIndex": 2
     },
     {
-      "id": "mod-11",
-      "courseId": "crs-8",
-      "title": "Module 1: Conversion Funnels & Campaign Analytics",
-      "description": "Structured digital marketing for online brands.",
-      "orderIndex": 1
+      "id": "mod-3",
+      "courseId": "crs-1",
+      "title": "3) HOSTING YOUR WEBSITE, DOMAIN NAME, ANDROID APP & BONUSES (Paid Google Drive Access)",
+      "description": "Live hosting, custom domain linking, Android packaging, and troubleshooting.",
+      "orderIndex": 3
     }
   ],
   "lessons": [
+    {
+      "id": "les-19",
+      "moduleId": "mod-11",
+      "courseId": "crs-8",
+      "title": "1.1 High-Converting Offer Pages Intro",
+      "description": "Turn social traffic into qualified WhatsApp and web leads.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Digital_Funnel_Blueprint.pdf",
+      "pdfSummary": "Awareness-to-conversion checklist for service businesses.",
+      "practicalExercise": "Write a 3-step WhatsApp follow-up sequence for course applicants.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
     {
       "id": "les-1",
       "moduleId": "mod-1",
@@ -448,6 +472,188 @@
       "isFreePreview": true
     },
     {
+      "id": "les-17",
+      "moduleId": "mod-10",
+      "courseId": "crs-7",
+      "title": "1.1 Digital Skills & Cloud Workspace Orientation",
+      "description": "Structure folders, share Google Drive documents securely, and manage digital files.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Cloud_Workspace_Starter.pdf",
+      "pdfSummary": "Folder naming conventions and cloud sharing permission checklist.",
+      "practicalExercise": "Create a 3-tier folder structure for projects, invoices, and certificates.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-6",
+      "moduleId": "mod-4",
+      "courseId": "crs-2",
+      "title": "1) MUST WATCH!! — Welcome & AI Video Course Overview",
+      "description": "Free preview tutorial introducing the AI Video Creation academy track and how full Google Drive access is shared to your sign-up email after GH₵ 50 payment.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Commercial_Storyboard_Grid.pdf",
+      "pdfSummary": "Printable 6-frame storyboard sheet with timing and audio cues.",
+      "practicalExercise": "Watch the orientation video and draft a 30-second product commercial hook.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-9",
+      "moduleId": "mod-6",
+      "courseId": "crs-3",
+      "title": "1.1 Academy Orientation & AI Workflows Introduction",
+      "description": "Overview of practical AI automation across education and business.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "AI_Workflow_Audit_Matrix.pdf",
+      "pdfSummary": "Impact vs. verification-risk matrix for deploying AI across teams.",
+      "practicalExercise": "Map 3 daily tasks in your organization and assign human review checkpoints.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-11",
+      "moduleId": "mod-7",
+      "courseId": "crs-4",
+      "title": "1.1 Orientation & 4-Pillar Prompt Engineering Overview",
+      "description": "Eliminate vague responses using Role, Context, Constraints, and Output Schema blocks.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Precision_Prompt_Workbook.pdf",
+      "pdfSummary": "15 tested prompt templates for coding, summarization, and customer communication.",
+      "practicalExercise": "Rewrite a 1-sentence request into a structured 4-pillar prompt.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-15",
+      "moduleId": "mod-9",
+      "courseId": "crs-6",
+      "title": "1.1 TypeScript Data Modeling & Intro Walkthrough",
+      "description": "Define strict shared interfaces between React views and Express/PostgreSQL endpoints.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "TypeScript_API_Architecture.pdf",
+      "pdfSummary": "Schema-first design guide for full-stack TypeScript projects.",
+      "practicalExercise": "Write TypeScript interfaces for an enrolment and payment payload.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-13",
+      "moduleId": "mod-8",
+      "courseId": "crs-5",
+      "title": "1.1 Layout Grids & Typographic Hierarchy Intro",
+      "description": "Apply 8px spacing scales, two-font pairings, and clear focal anchors.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Typography_Spacing_Reference.pdf",
+      "pdfSummary": "Display-to-body type scale ratios and safe contrast combinations.",
+      "practicalExercise": "Design a clean event announcement layout using only 2 type sizes.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-20",
+      "moduleId": "mod-11",
+      "courseId": "crs-8",
+      "title": "1.2 Paid Campaigns & Conversion Analytics",
+      "description": "Measure cost per lead, ROI, and social ad creative testing.",
+      "videoUrl": "",
+      "durationMinutes": 22,
+      "pdfTitle": "Campaign_Analytics_Sheet.pdf",
+      "pdfSummary": "Weekly campaign KPI tracking sheet.",
+      "practicalExercise": "Calculate conversion rate across a 3-stage funnel.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-18",
+      "moduleId": "mod-10",
+      "courseId": "crs-7",
+      "title": "1.2 Everyday Spreadsheets & Cybersecurity Hygiene",
+      "description": "Master business spreadsheets, 2FA protection, and Mobile Money fraud prevention.",
+      "videoUrl": "",
+      "durationMinutes": 20,
+      "pdfTitle": "Spreadsheet_and_Safety_Guide.pdf",
+      "pdfSummary": "Essential formulas and account protection checklist.",
+      "practicalExercise": "Build a monthly expense tracker with SUM formulas.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-12",
+      "moduleId": "mod-7",
+      "courseId": "crs-4",
+      "title": "1.2 Few-Shot Calibration & Structured JSON Outputs",
+      "description": "Force consistent tone, formatting, and schema output across repetitive tasks.",
+      "videoUrl": "",
+      "durationMinutes": 22,
+      "pdfTitle": "JSON_Schema_Prompting.pdf",
+      "pdfSummary": "Examples for extracting structured data with AI.",
+      "practicalExercise": "Design a few-shot prompt with 2 clean input/output examples.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-7",
+      "moduleId": "mod-5",
+      "courseId": "crs-2",
+      "title": "2) Generating Consistent AI Video Scenes & Voiceovers",
+      "description": "Control camera motion, lighting consistency, AI voice synthesis, and character framing across commercial video clips.",
+      "videoUrl": "",
+      "durationMinutes": 26,
+      "pdfTitle": "Camera_Motion_Prompt_Guide.pdf",
+      "pdfSummary": "Reference guide for dolly, pan, focal length, and lighting keywords.",
+      "practicalExercise": "Generate 3 matching B-roll prompts using consistent lighting and lens direction.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-10",
+      "moduleId": "mod-6",
+      "courseId": "crs-3",
+      "title": "1.2 Automating Reports, Lesson Plans & Support",
+      "description": "Build reliable document pipelines with human verification checkpoints.",
+      "videoUrl": "",
+      "durationMinutes": 24,
+      "pdfTitle": "Business_AI_Pipelines.pdf",
+      "pdfSummary": "Structured workflow templates for educators and managers.",
+      "practicalExercise": "Create a repeatable prompt workflow for weekly reporting.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-14",
+      "moduleId": "mod-8",
+      "courseId": "crs-5",
+      "title": "1.2 Logo Systems & Commercial Brand Books",
+      "description": "Build vector marks and complete identity deliverables for clients.",
+      "videoUrl": "",
+      "durationMinutes": 25,
+      "pdfTitle": "Brand_Book_Checklist.pdf",
+      "pdfSummary": "Deliverable checklist for commercial branding clients.",
+      "practicalExercise": "Assemble a 3-color brand palette with hex specifications.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-16",
+      "moduleId": "mod-9",
+      "courseId": "crs-6",
+      "title": "1.2 Authentication, Sessions & Relational Databases",
+      "description": "Build secure password hashing, RBAC permissions, and Postgres persistence.",
+      "videoUrl": "",
+      "durationMinutes": 30,
+      "pdfTitle": "FullStack_Security_Notes.pdf",
+      "pdfSummary": "Session cookies, scrypt hashing, and SQL constraints.",
+      "practicalExercise": "Implement an authenticated POST endpoint with input validation.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
       "id": "les-2",
       "moduleId": "mod-2",
       "courseId": "crs-1",
@@ -459,6 +665,20 @@
       "pdfSummary": "Full step-by-step specification prompts and customization guide.",
       "practicalExercise": "Follow the Detailed Tutorial video to generate and customize a multi-section landing page.",
       "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-8",
+      "moduleId": "mod-5",
+      "courseId": "crs-2",
+      "title": "3) Pacing, Audio Mastering & Commercial 4K Export",
+      "description": "Combine AI voiceover audio, background music ducking, kinetic captions, and social ad formatting.",
+      "videoUrl": "",
+      "durationMinutes": 25,
+      "pdfTitle": "Audio_Mastering_Levels.pdf",
+      "pdfSummary": "Target LUFS loudness and voice-to-music dB separation chart.",
+      "practicalExercise": "Assemble a 30-second timeline with voiceover peaks at -6dB and music bed at -22dB.",
+      "orderIndex": 3,
       "isFreePreview": false
     },
     {
@@ -502,216 +722,6 @@
       "practicalExercise": "Test your deployed site in mobile viewport and inspect debug logs.",
       "orderIndex": 5,
       "isFreePreview": false
-    },
-    {
-      "id": "les-6",
-      "moduleId": "mod-4",
-      "courseId": "crs-2",
-      "title": "1) MUST WATCH!! — Welcome & AI Video Course Overview",
-      "description": "Free preview tutorial introducing the AI Video Creation academy track and how full Google Drive access is shared to your sign-up email after GH₵ 50 payment.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "Commercial_Storyboard_Grid.pdf",
-      "pdfSummary": "Printable 6-frame storyboard sheet with timing and audio cues.",
-      "practicalExercise": "Watch the orientation video and draft a 30-second product commercial hook.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-7",
-      "moduleId": "mod-5",
-      "courseId": "crs-2",
-      "title": "2) Generating Consistent AI Video Scenes & Voiceovers",
-      "description": "Control camera motion, lighting consistency, AI voice synthesis, and character framing across commercial video clips.",
-      "videoUrl": "",
-      "durationMinutes": 26,
-      "pdfTitle": "Camera_Motion_Prompt_Guide.pdf",
-      "pdfSummary": "Reference guide for dolly, pan, focal length, and lighting keywords.",
-      "practicalExercise": "Generate 3 matching B-roll prompts using consistent lighting and lens direction.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-8",
-      "moduleId": "mod-5",
-      "courseId": "crs-2",
-      "title": "3) Pacing, Audio Mastering & Commercial 4K Export",
-      "description": "Combine AI voiceover audio, background music ducking, kinetic captions, and social ad formatting.",
-      "videoUrl": "",
-      "durationMinutes": 25,
-      "pdfTitle": "Audio_Mastering_Levels.pdf",
-      "pdfSummary": "Target LUFS loudness and voice-to-music dB separation chart.",
-      "practicalExercise": "Assemble a 30-second timeline with voiceover peaks at -6dB and music bed at -22dB.",
-      "orderIndex": 3,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-9",
-      "moduleId": "mod-6",
-      "courseId": "crs-3",
-      "title": "1.1 Academy Orientation & AI Workflows Introduction",
-      "description": "Overview of practical AI automation across education and business.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "AI_Workflow_Audit_Matrix.pdf",
-      "pdfSummary": "Impact vs. verification-risk matrix for deploying AI across teams.",
-      "practicalExercise": "Map 3 daily tasks in your organization and assign human review checkpoints.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-10",
-      "moduleId": "mod-6",
-      "courseId": "crs-3",
-      "title": "1.2 Automating Reports, Lesson Plans & Support",
-      "description": "Build reliable document pipelines with human verification checkpoints.",
-      "videoUrl": "",
-      "durationMinutes": 24,
-      "pdfTitle": "Business_AI_Pipelines.pdf",
-      "pdfSummary": "Structured workflow templates for educators and managers.",
-      "practicalExercise": "Create a repeatable prompt workflow for weekly reporting.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-11",
-      "moduleId": "mod-7",
-      "courseId": "crs-4",
-      "title": "1.1 Orientation & 4-Pillar Prompt Engineering Overview",
-      "description": "Eliminate vague responses using Role, Context, Constraints, and Output Schema blocks.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "Precision_Prompt_Workbook.pdf",
-      "pdfSummary": "15 tested prompt templates for coding, summarization, and customer communication.",
-      "practicalExercise": "Rewrite a 1-sentence request into a structured 4-pillar prompt.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-12",
-      "moduleId": "mod-7",
-      "courseId": "crs-4",
-      "title": "1.2 Few-Shot Calibration & Structured JSON Outputs",
-      "description": "Force consistent tone, formatting, and schema output across repetitive tasks.",
-      "videoUrl": "",
-      "durationMinutes": 22,
-      "pdfTitle": "JSON_Schema_Prompting.pdf",
-      "pdfSummary": "Examples for extracting structured data with AI.",
-      "practicalExercise": "Design a few-shot prompt with 2 clean input/output examples.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-13",
-      "moduleId": "mod-8",
-      "courseId": "crs-5",
-      "title": "1.1 Layout Grids & Typographic Hierarchy Intro",
-      "description": "Apply 8px spacing scales, two-font pairings, and clear focal anchors.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "Typography_Spacing_Reference.pdf",
-      "pdfSummary": "Display-to-body type scale ratios and safe contrast combinations.",
-      "practicalExercise": "Design a clean event announcement layout using only 2 type sizes.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-14",
-      "moduleId": "mod-8",
-      "courseId": "crs-5",
-      "title": "1.2 Logo Systems & Commercial Brand Books",
-      "description": "Build vector marks and complete identity deliverables for clients.",
-      "videoUrl": "",
-      "durationMinutes": 25,
-      "pdfTitle": "Brand_Book_Checklist.pdf",
-      "pdfSummary": "Deliverable checklist for commercial branding clients.",
-      "practicalExercise": "Assemble a 3-color brand palette with hex specifications.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-15",
-      "moduleId": "mod-9",
-      "courseId": "crs-6",
-      "title": "1.1 TypeScript Data Modeling & Intro Walkthrough",
-      "description": "Define strict shared interfaces between React views and Express/PostgreSQL endpoints.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "TypeScript_API_Architecture.pdf",
-      "pdfSummary": "Schema-first design guide for full-stack TypeScript projects.",
-      "practicalExercise": "Write TypeScript interfaces for an enrolment and payment payload.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-16",
-      "moduleId": "mod-9",
-      "courseId": "crs-6",
-      "title": "1.2 Authentication, Sessions & Relational Databases",
-      "description": "Build secure password hashing, RBAC permissions, and Postgres persistence.",
-      "videoUrl": "",
-      "durationMinutes": 30,
-      "pdfTitle": "FullStack_Security_Notes.pdf",
-      "pdfSummary": "Session cookies, scrypt hashing, and SQL constraints.",
-      "practicalExercise": "Implement an authenticated POST endpoint with input validation.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-17",
-      "moduleId": "mod-10",
-      "courseId": "crs-7",
-      "title": "1.1 Digital Skills & Cloud Workspace Orientation",
-      "description": "Structure folders, share Google Drive documents securely, and manage digital files.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "Cloud_Workspace_Starter.pdf",
-      "pdfSummary": "Folder naming conventions and cloud sharing permission checklist.",
-      "practicalExercise": "Create a 3-tier folder structure for projects, invoices, and certificates.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-18",
-      "moduleId": "mod-10",
-      "courseId": "crs-7",
-      "title": "1.2 Everyday Spreadsheets & Cybersecurity Hygiene",
-      "description": "Master business spreadsheets, 2FA protection, and Mobile Money fraud prevention.",
-      "videoUrl": "",
-      "durationMinutes": 20,
-      "pdfTitle": "Spreadsheet_and_Safety_Guide.pdf",
-      "pdfSummary": "Essential formulas and account protection checklist.",
-      "practicalExercise": "Build a monthly expense tracker with SUM formulas.",
-      "orderIndex": 2,
-      "isFreePreview": false
-    },
-    {
-      "id": "les-19",
-      "moduleId": "mod-11",
-      "courseId": "crs-8",
-      "title": "1.1 High-Converting Offer Pages Intro",
-      "description": "Turn social traffic into qualified WhatsApp and web leads.",
-      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
-      "durationMinutes": 5,
-      "pdfTitle": "Digital_Funnel_Blueprint.pdf",
-      "pdfSummary": "Awareness-to-conversion checklist for service businesses.",
-      "practicalExercise": "Write a 3-step WhatsApp follow-up sequence for course applicants.",
-      "orderIndex": 1,
-      "isFreePreview": true
-    },
-    {
-      "id": "les-20",
-      "moduleId": "mod-11",
-      "courseId": "crs-8",
-      "title": "1.2 Paid Campaigns & Conversion Analytics",
-      "description": "Measure cost per lead, ROI, and social ad creative testing.",
-      "videoUrl": "",
-      "durationMinutes": 22,
-      "pdfTitle": "Campaign_Analytics_Sheet.pdf",
-      "pdfSummary": "Weekly campaign KPI tracking sheet.",
-      "practicalExercise": "Calculate conversion rate across a 3-stage funnel.",
-      "orderIndex": 2,
-      "isFreePreview": false
     }
   ],
   "enrolments": [
@@ -727,8 +737,8 @@
       ],
       "lastLessonId": "les-3",
       "driveAccessEmail": "kofi.student@ektechsolutions.com",
-      "driveAccessGrantedAt": "2026-10-18T10:00:00.000Z",
-      "enrolledAt": "2026-10-18T10:00:00.000Z"
+      "driveAccessGrantedAt": "2026-10-18T10:00:00+00:00",
+      "enrolledAt": "2026-10-18T10:00:00+00:00"
     },
     {
       "id": "enr-2",
@@ -741,8 +751,8 @@
         "les-18"
       ],
       "lastLessonId": "les-18",
-      "enrolledAt": "2026-09-14T12:00:00.000Z",
-      "completedAt": "2026-10-02T15:30:00.000Z"
+      "enrolledAt": "2026-09-14T12:00:00+00:00",
+      "completedAt": "2026-10-02T15:30:00+00:00"
     },
     {
       "id": "enr-3",
@@ -754,7 +764,7 @@
         "les-11"
       ],
       "lastLessonId": "les-12",
-      "enrolledAt": "2026-10-20T09:15:00.000Z"
+      "enrolledAt": "2026-10-20T09:15:00+00:00"
     }
   ],
   "payments": [
@@ -767,12 +777,13 @@
       "amountGhs": 50,
       "senderPhone": "0552345678",
       "transactionId": "MP261018.0942.B84120",
+      "paymentMethod": "MANUAL_MOMO",
       "paymentDate": "2026-10-18",
       "status": "APPROVED",
       "adminNote": "Verified GH₵ 50 on MTN MoMo statement; Drive videos unlocked for sign-up email.",
       "reviewedBy": "usr-admin-1",
-      "reviewedAt": "2026-10-18T10:00:00.000Z",
-      "createdAt": "2026-10-18T09:45:00.000Z"
+      "reviewedAt": "2026-10-18T10:00:00+00:00",
+      "createdAt": "2026-10-18T09:45:00+00:00"
     },
     {
       "id": "pay-2",
@@ -783,12 +794,13 @@
       "amountGhs": 100,
       "senderPhone": "0548765432",
       "transactionId": "MP261020.0850.C19402",
+      "paymentMethod": "MANUAL_MOMO",
       "paymentDate": "2026-10-20",
       "status": "APPROVED",
       "adminNote": "Confirmed payment received.",
       "reviewedBy": "usr-admin-1",
-      "reviewedAt": "2026-10-20T09:15:00.000Z",
-      "createdAt": "2026-10-20T08:55:00.000Z"
+      "reviewedAt": "2026-10-20T09:15:00+00:00",
+      "createdAt": "2026-10-20T08:55:00+00:00"
     },
     {
       "id": "pay-3",
@@ -799,9 +811,10 @@
       "amountGhs": 50,
       "senderPhone": "0552345678",
       "transactionId": "MP261115.1422.A77319",
+      "paymentMethod": "MANUAL_MOMO",
       "paymentDate": "2026-11-15",
       "status": "PENDING",
-      "createdAt": "2026-11-15T14:25:00.000Z"
+      "createdAt": "2026-11-15T14:25:00+00:00"
     }
   ],
   "assignments": [
@@ -812,7 +825,7 @@
       "instructions": "Build a responsive multi-section website for a real or simulated business, host it online, and submit your architecture notes and live URL.",
       "dueDate": "2026-12-05",
       "maxScore": 100,
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     },
     {
       "id": "asg-2",
@@ -821,7 +834,7 @@
       "instructions": "Submit your script breakdown, scene prompts, and final exported commercial video link with balanced voiceover audio.",
       "dueDate": "2026-12-10",
       "maxScore": 100,
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     }
   ],
   "submissions": [
@@ -835,11 +848,43 @@
       "status": "GRADED",
       "score": 92,
       "feedback": "Excellent typographic hierarchy and clean form validation. Consider tightening mobile card padding slightly below 400px.",
-      "submittedAt": "2026-11-05T15:00:00.000Z",
-      "gradedAt": "2026-11-07T11:20:00.000Z"
+      "submittedAt": "2026-11-05T15:00:00+00:00",
+      "gradedAt": "2026-11-07T11:20:00+00:00"
     }
   ],
   "quizzes": [
+    {
+      "id": "qiz-2",
+      "courseId": "crs-7",
+      "title": "Digital Skills & Online Safety Assessment",
+      "description": "Check your mastery of cloud productivity, spreadsheet formulas, and MoMo security.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "q4",
+          "prompt": "Which spreadsheet function calculates the total of cells B2 through B12?",
+          "options": [
+            "=ADD(B2:B12)",
+            "=SUM(B2:B12)",
+            "=COUNT(B2:B12)",
+            "=TOTAL(B2:B12)"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "q5",
+          "prompt": "What should you NEVER share with anyone claiming to be support staff?",
+          "options": [
+            "Your course title",
+            "Your Mobile Money PIN or one-time verification code",
+            "Your public business name",
+            "Your academy support ticket subject"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "createdAt": "2026-10-15T09:00:00+00:00"
+    },
     {
       "id": "qiz-1",
       "courseId": "crs-1",
@@ -881,39 +926,7 @@
           "correctIndex": 2
         }
       ],
-      "createdAt": "2026-10-15T09:00:00.000Z"
-    },
-    {
-      "id": "qiz-2",
-      "courseId": "crs-7",
-      "title": "Digital Skills & Online Safety Assessment",
-      "description": "Check your mastery of cloud productivity, spreadsheet formulas, and MoMo security.",
-      "passingScore": 70,
-      "questions": [
-        {
-          "id": "q4",
-          "prompt": "Which spreadsheet function calculates the total of cells B2 through B12?",
-          "options": [
-            "=ADD(B2:B12)",
-            "=SUM(B2:B12)",
-            "=COUNT(B2:B12)",
-            "=TOTAL(B2:B12)"
-          ],
-          "correctIndex": 1
-        },
-        {
-          "id": "q5",
-          "prompt": "What should you NEVER share with anyone claiming to be support staff?",
-          "options": [
-            "Your course title",
-            "Your Mobile Money PIN or one-time verification code",
-            "Your public business name",
-            "Your academy support ticket subject"
-          ],
-          "correctIndex": 1
-        }
-      ],
-      "createdAt": "2026-10-15T09:00:00.000Z"
+      "createdAt": "2026-10-15T09:00:00+00:00"
     }
   ],
   "quizAttempts": [
@@ -928,7 +941,7 @@
       ],
       "scorePercent": 100,
       "passed": true,
-      "attemptedAt": "2026-10-02T15:20:00.000Z"
+      "attemptedAt": "2026-10-02T15:20:00+00:00"
     }
   ],
   "certificates": [
@@ -940,7 +953,7 @@
       "studentName": "Kofi Agyemang",
       "courseTitle": "Digital Skills & Computer Training Essentials",
       "instructorName": "Emmanuel Sansah",
-      "issuedAt": "2026-10-02T15:30:00.000Z"
+      "issuedAt": "2026-10-02T15:30:00+00:00"
     }
   ],
   "notifications": [
@@ -951,7 +964,7 @@
       "message": "Kofi Agyemang submitted GH₵ 50 for AI Video Creation & Commercial Editing (TxID: MP261115.1422.A77319).",
       "type": "PAYMENT",
       "isRead": false,
-      "createdAt": "2026-11-15T14:25:00.000Z"
+      "createdAt": "2026-11-15T14:25:00+00:00"
     },
     {
       "id": "not-2",
@@ -960,7 +973,7 @@
       "message": "Emmanuel Sansah graded your Capstone Business Website submission with feedback.",
       "type": "GRADE",
       "isRead": false,
-      "createdAt": "2026-11-07T11:20:00.000Z"
+      "createdAt": "2026-11-07T11:20:00+00:00"
     },
     {
       "id": "not-3",
@@ -969,7 +982,7 @@
       "message": "Your certificate EKTS-2026-00412 for Digital Skills & Computer Training Essentials is ready to download.",
       "type": "ENROLMENT",
       "isRead": true,
-      "createdAt": "2026-10-02T15:30:00.000Z"
+      "createdAt": "2026-10-02T15:30:00+00:00"
     }
   ],
   "messages": [
@@ -982,7 +995,7 @@
       "subject": "Confirmation on AI Video Creation MoMo Transfer",
       "body": "Hello Emmanuel Sansah, I just sent GH₵ 50 to 0551464715 and submitted Transaction ID MP261115.1422.A77319. Kindly confirm and unlock the rest of the videos on my sign-up email.",
       "status": "OPEN",
-      "createdAt": "2026-11-15T14:28:00.000Z"
+      "createdAt": "2026-11-15T14:28:00+00:00"
     }
   ],
   "announcements": [
@@ -992,7 +1005,7 @@
       "message": "Watch Lesson 1 free immediately upon login. Pay GH₵ 50 via MTN Mobile Money (0551464715) to unlock all remaining tutorials and Google Drive video access on your sign-up email with Emmanuel Sansah.",
       "audience": "ALL",
       "authorId": "usr-admin-1",
-      "createdAt": "2026-11-10T08:00:00.000Z"
+      "createdAt": "2026-11-10T08:00:00+00:00"
     }
   ],
   "website": {
@@ -1007,57 +1020,57 @@
         "id": "tes-1",
         "name": "Kofi Agyemang",
         "role": "Freelance Web Designer",
+        "quote": "Watching the free Lesson 1 convinced me immediately. After my GH₵ 50 MoMo payment was confirmed on my sign-up email, I followed the detailed Google Drive tutorials and delivered two paid client websites.",
         "organization": "Tema Digital Studio",
-        "courseCompleted": "AI Website Development Mastery",
-        "quote": "Watching the free Lesson 1 convinced me immediately. After my GH₵ 50 MoMo payment was confirmed on my sign-up email, I followed the detailed Google Drive tutorials and delivered two paid client websites."
+        "courseCompleted": "AI Website Development Mastery"
       },
       {
         "id": "tes-2",
         "name": "Ama Serwaa",
         "role": "Marketing Coordinator",
+        "quote": "Emmanuel Sansah explains everything clearly step by step. The prompt engineering templates cut our campaign copywriting and reporting time in half.",
         "organization": "Accra Retail Collective",
-        "courseCompleted": "Applied Prompt Engineering Studio",
-        "quote": "Emmanuel Sansah explains everything clearly step by step. The prompt engineering templates cut our campaign copywriting and reporting time in half."
+        "courseCompleted": "Applied Prompt Engineering Studio"
       },
       {
         "id": "tes-3",
         "name": "Daniel Owusu",
         "role": "Content Producer",
+        "quote": "For just GH₵ 50, the AI Video Creation course transformed how we produce commercial adverts for local businesses.",
         "organization": "Kumasi Media House",
-        "courseCompleted": "AI Video Creation & Commercial Editing",
-        "quote": "For just GH₵ 50, the AI Video Creation course transformed how we produce commercial adverts for local businesses."
+        "courseCompleted": "AI Video Creation & Commercial Editing"
       }
     ],
     "faqs": [
       {
         "id": "faq-1",
+        "answer": "Every newly registered or signed-in student can watch Lesson 1 (1 MUST WATCH) completely free. To unlock the remaining course videos and receive Google Drive access on your sign-up email, send GH₵ 50 (for AI Website Development or AI Video Creation) to MTN Mobile Money 0551464715 (EK TECH SOLUTIONS) and submit your Transaction ID inside your dashboard.",
         "category": "Enrolment & Payments",
-        "question": "How do I unlock the rest of the videos after watching the free Lesson 1?",
-        "answer": "Every newly registered or signed-in student can watch Lesson 1 (1 MUST WATCH) completely free. To unlock the remaining course videos and receive Google Drive access on your sign-up email, send GH₵ 50 (for AI Website Development or AI Video Creation) to MTN Mobile Money 0551464715 (EK TECH SOLUTIONS) and submit your Transaction ID inside your dashboard."
+        "question": "How do I unlock the rest of the videos after watching the free Lesson 1?"
       },
       {
         "id": "faq-2",
+        "answer": "Once our administrator verifies your Mobile Money transfer, access to the remaining premium course videos in Instructor Emmanuel Sansah’s Google Drive library (emmanuelsansah020@gmail.com) is granted directly to your registered sign-up email address.",
         "category": "Learning Format",
-        "question": "Why do I need to use my sign-up email for payment verification?",
-        "answer": "Once our administrator verifies your Mobile Money transfer, access to the remaining premium course videos in Instructor Emmanuel Sansah’s Google Drive library (emmanuelsansah020@gmail.com) is granted directly to your registered sign-up email address."
+        "question": "Why do I need to use my sign-up email for payment verification?"
       },
       {
         "id": "faq-3",
+        "answer": "Payments are manually verified by our administration team to protect students and prevent duplicate transaction IDs. Verification typically completes within 15 minutes to 2 hours, and you can also message 0551464715 on WhatsApp for urgent assistance.",
         "category": "Verification & Access",
-        "question": "How long does Mobile Money payment verification take?",
-        "answer": "Payments are manually verified by our administration team to protect students and prevent duplicate transaction IDs. Verification typically completes within 15 minutes to 2 hours, and you can also message 0551464715 on WhatsApp for urgent assistance."
+        "question": "How long does Mobile Money payment verification take?"
       },
       {
         "id": "faq-4",
+        "answer": "Yes. Upon completing all required lessons and passing the course quiz or practical assessment, an official EK TECH SOLUTIONS certificate signed by Emmanuel Sansah is issued in your Student Dashboard.",
         "category": "Certificates",
-        "question": "Do I receive a certificate after completing a course?",
-        "answer": "Yes. Upon completing all required lessons and passing the course quiz or practical assessment, an official EK TECH SOLUTIONS certificate signed by Emmanuel Sansah is issued in your Student Dashboard."
+        "question": "Do I receive a certificate after completing a course?"
       },
       {
         "id": "faq-5",
+        "answer": "No prior programming background is required. Emmanuel Sansah walks you step by step from the free intro video through building, hosting, custom domains, and troubleshooting.",
         "category": "Prerequisites",
-        "question": "Do I need coding experience before joining AI Website Development?",
-        "answer": "No prior programming background is required. Emmanuel Sansah walks you step by step from the free intro video through building, hosting, custom domains, and troubleshooting."
+        "question": "Do I need coding experience before joining AI Website Development?"
       }
     ]
   },
@@ -1070,13 +1083,169 @@
     "supportEmail": "emmanuelsansah020@gmail.com",
     "currency": "GH₵",
     "allowPublicRegistration": true,
-    "paymentGatewayMode": "MANUAL_MOMO"
+    "paymentGatewayMode": "BOTH"
   },
   "otpChallenges": [],
   "securityLogs": [
     {
+      "id": "sec-mwmbxa3v-2232s",
+      "timestamp": "2026-11-18T16:22:09.259Z",
+      "event": "LOGIN_FAILED_UNKNOWN_EMAIL",
+      "severity": "WARN",
+      "actorEmail": "test@test.com",
+      "actorRole": "ANONYMOUS",
+      "ipAddress": "127.0.0.1",
+      "details": "Sign-in attempted with unrecognized email.",
+      "previousHash": "0aa080a56aedd46a50085670f5854f2e6a97c9386b1bc95b756fcdf2578eb2d4",
+      "entryHash": "c1d56a9239786e57b17de913c2f13ec652fd29d09eda520090a57925324258ca"
+    },
+    {
+      "id": "sec-mwm2tzpr-x7nvj",
+      "timestamp": "2026-11-18T12:07:39.279+00:00",
+      "event": "ADMIN_SETTINGS_UPDATED",
+      "severity": "WARN",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Administrator updated platform payment/system configuration.",
+      "previousHash": "9f68888cc337115da0b959266952552549f71b636ab30d238cc640ae8b99c026",
+      "entryHash": "0aa080a56aedd46a50085670f5854f2e6a97c9386b1bc95b756fcdf2578eb2d4"
+    },
+    {
+      "id": "sec-mwm2txtt-9fbso",
+      "timestamp": "2026-11-18T12:07:36.833+00:00",
+      "event": "ADMIN_SETTINGS_UPDATED",
+      "severity": "WARN",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Administrator updated platform payment/system configuration.",
+      "previousHash": "dd1352302f5d56e53087901fd8aa9f1783e35de2d4eedcf80009874b27228527",
+      "entryHash": "9f68888cc337115da0b959266952552549f71b636ab30d238cc640ae8b99c026"
+    },
+    {
+      "id": "sec-mwm2s8yu-obnuq",
+      "timestamp": "2026-11-18T12:06:17.958+00:00",
+      "event": "SUPABASE_SYNC_COMPLETED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Synchronized 83 Academy records to Supabase SQL.",
+      "previousHash": "6af2b7bf8cb514fe9b678ab661ca9f6021d4911442dc3fec68bec6552eb40e78",
+      "entryHash": "dd1352302f5d56e53087901fd8aa9f1783e35de2d4eedcf80009874b27228527"
+    },
+    {
+      "id": "sec-mwm2s2mz-q7fyn",
+      "timestamp": "2026-11-18T12:06:09.755+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (121ms).",
+      "previousHash": "b7eccefc44f1631faf7514ed60dabaf8a933dacc4a43112f89b6d84537ded404",
+      "entryHash": "6af2b7bf8cb514fe9b678ab661ca9f6021d4911442dc3fec68bec6552eb40e78"
+    },
+    {
+      "id": "sec-mwm2rmrw-up26y",
+      "timestamp": "2026-11-18T12:05:49.196+00:00",
+      "event": "SUPABASE_SYNC_COMPLETED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Synchronized 81 Academy records to Supabase SQL.",
+      "previousHash": "4693c937bbae57a903ccb12f45a699f46db952fc98ef64734657181fddf09019",
+      "entryHash": "b7eccefc44f1631faf7514ed60dabaf8a933dacc4a43112f89b6d84537ded404"
+    },
+    {
+      "id": "sec-mwm2rhyj-jixhq",
+      "timestamp": "2026-11-18T12:05:42.955+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (284ms).",
+      "previousHash": "8f83f004e2f156c8217b1d3edaa45e47805a5726c7320f48f84ec3e68b5230ad",
+      "entryHash": "4693c937bbae57a903ccb12f45a699f46db952fc98ef64734657181fddf09019"
+    },
+    {
+      "id": "sec-mwm2k96p-3957a",
+      "timestamp": "2026-11-18T12:00:04.993+00:00",
+      "event": "SUPABASE_SYNC_COMPLETED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Synchronized 79 Academy records to Supabase SQL.",
+      "previousHash": "7edd3be69531882541370f5621dc231d0042e240770a927680817dc340c88468",
+      "entryHash": "8f83f004e2f156c8217b1d3edaa45e47805a5726c7320f48f84ec3e68b5230ad"
+    },
+    {
+      "id": "sec-mwm2j3c0-uzrzw",
+      "timestamp": "2026-11-18T11:59:10.752+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (191ms).",
+      "previousHash": "1e8c89a15264e8bd933dca1a87f972be51d74e2dc9c80a46346b608665e940ad",
+      "entryHash": "7edd3be69531882541370f5621dc231d0042e240770a927680817dc340c88468"
+    },
+    {
+      "id": "sec-mwm2j2dw-j0k1y",
+      "timestamp": "2026-11-18T11:59:09.524+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (179ms).",
+      "previousHash": "9ccae6db04c1ca4a5727c5607de3bb16b8bf2e3966bbd0d7bce34d3b4ab8b261",
+      "entryHash": "1e8c89a15264e8bd933dca1a87f972be51d74e2dc9c80a46346b608665e940ad"
+    },
+    {
+      "id": "sec-mwm2j1c0-y321f",
+      "timestamp": "2026-11-18T11:59:08.16+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (74ms).",
+      "previousHash": "7a6724f8c31589eb0257a09946507c7e2c08065fa990aca8e069dced767b3caf",
+      "entryHash": "9ccae6db04c1ca4a5727c5607de3bb16b8bf2e3966bbd0d7bce34d3b4ab8b261"
+    },
+    {
+      "id": "sec-mwm2iywb-x5kej",
+      "timestamp": "2026-11-18T11:59:05.003+00:00",
+      "event": "SUPABASE_CONNECTION_TESTED",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "SUPABASE_REST_API test: Connected (471ms).",
+      "previousHash": "764049e70824bc592417ee8600df5ec4212f774311da7bc3959feda7958841ef",
+      "entryHash": "7a6724f8c31589eb0257a09946507c7e2c08065fa990aca8e069dced767b3caf"
+    },
+    {
+      "id": "sec-mwm2a0tc-6km7h",
+      "timestamp": "2026-11-18T11:52:07.584+00:00",
+      "event": "LOGIN_ADMIN_PASSWORD_ONLY",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "154.160.3.15",
+      "details": "Admin logged in directly using password \"admin\".",
+      "previousHash": "4f2c88c97406cef338dd6afdb8e45cc98623771a59715eb9c7d12a133db6b6e4",
+      "entryHash": "764049e70824bc592417ee8600df5ec4212f774311da7bc3959feda7958841ef"
+    },
+    {
       "id": "sec-mwly5054-xl3px",
-      "timestamp": "2026-11-18T09:56:14.968Z",
+      "timestamp": "2026-11-18T09:56:14.968+00:00",
       "event": "LOGIN_ADMIN_PASSWORD_ONLY",
       "severity": "INFO",
       "actorEmail": "admin@ektechsolutions.com",
@@ -1088,7 +1257,7 @@
     },
     {
       "id": "sec-genesis",
-      "timestamp": "2026-10-15T09:00:00.000Z",
+      "timestamp": "2026-10-15T09:00:00+00:00",
       "event": "CIA_SECURITY_INITIALIZED",
       "severity": "INFO",
       "actorEmail": "system@ektechsolutions.com",
@@ -1099,5 +1268,5 @@
       "entryHash": "cf410bf27c080197bb000266abf688b478438806452a9137a1c4ce5048ac7845"
     }
   ],
-  "integrityChecksum": "c70202fe1bf17f6f44bf3ea18314b0bc96b0accff58c29163d791b8799201da2"
+  "integrityChecksum": "da6e34d0a13f8a7053fc8b25b52e8a4a5139559b5d6b6129cff190109bbb4feb"
 }

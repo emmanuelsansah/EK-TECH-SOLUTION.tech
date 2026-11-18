@@ -48,7 +48,7 @@ import { testSupabaseBrowserConnection, type SupabaseClientProbeResult } from '.
 import { useApp } from '../context/AppContext';
 import { DashboardShell, type NavItem } from '../components/DashboardShell';
 import { GoogleDrivePanel, GoogleSignInButton } from '../components/GoogleDrivePanel';
-import { StatusIndicator } from '../components/UiPrimitives';
+import { PasswordInput, StatusIndicator } from '../components/UiPrimitives';
 import type {
   Announcement,
   Assignment,
@@ -1484,8 +1484,7 @@ export function AdminDashboard() {
                 onChange={(e) => setNewUser({ ...newUser, title: e.target.value })}
                 className="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800"
               />
-              <input
-                type="password"
+              <PasswordInput
                 required
                 minLength={8}
                 placeholder="Strong Password (8+ chars, A-z, 0-9, !@#)"
@@ -2382,8 +2381,7 @@ export function AdminDashboard() {
               <label className="block text-xs font-medium mb-1">
                 New Strong Password (optional — 8+ chars, upper/lower/number/symbol)
               </label>
-              <input
-                type="password"
+              <PasswordInput
                 minLength={8}
                 placeholder="Leave blank to keep current password"
                 value={profileForm.newPassword}

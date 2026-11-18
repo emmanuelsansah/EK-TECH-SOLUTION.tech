@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta charset="utf-8">
+  <title>EK TECH SOLUTIONS — System Architecture Report</title>
+  <style>
+    body { font-family: Calibri, 'Segoe UI', Arial, sans-serif; margin: 40px; color: #111827; line-height: 1.6; }
+    h1 { color: #EA580C; border-bottom: 2px solid #EA580C; padding-bottom: 6px; font-size: 24pt; }
+    h2 { color: #111827; margin-top: 24px; font-size: 16pt; border-bottom: 1px solid #E5E7EB; padding-bottom: 4px; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th { background-color: #EA580C; color: #ffffff; text-align: left; padding: 10px; font-weight: bold; border: 1px solid #D1D5DB; }
+    td { padding: 9px; border: 1px solid #D1D5DB; vertical-align: top; font-size: 10.5pt; }
+    tr:nth-child(even) { background-color: #F9FAFB; }
+    .badge { background-color: #FFF0E5; color: #EA580C; font-weight: bold; padding: 2px 6px; border-radius: 4px; font-family: Consolas, monospace; }
+    .footer { margin-top: 40px; font-size: 9pt; color: #6B7280; text-align: center; border-top: 1px solid #E5E7EB; padding-top: 12px; }
+  </style>
+</head>
+<body>
+  <div style="text-align: center; margin-bottom: 30px;">
+    <h1 style="border: none; margin-bottom: 4px;">EK TECH SOLUTIONS</h1>
+    <h3 style="margin-top: 0; color: #4B5563;">Online Technology & AI Academy — Technical System & Architecture Report</h3>
+    <p style="font-size: 10pt; color: #6B7280;">Author: Emmanuel Sansah (emmanuelsansah020@gmail.com) | Version 2.4 | November 2026</p>
+  </div>
+
+  <h2>1. Executive Summary</h2>
+  <p>EK TECH SOLUTIONS is a modern, full-stack, enterprise-grade Online Academy and Learning Management System (LMS) specifically architected for digital skills training, Artificial Intelligence education, web engineering, prompt engineering, and multimedia creation. The platform integrates automated Ghana payment systems (MTN Mobile Money, Telecel Cash, AT Money, and Cards via Paystack), email-delivered Two-Factor Authentication (2FA), Google Drive cloud learning repositories, dynamic PDF study guide generation, cryptographically chained security audit logs, and instant fallback hydration for zero-downtime serverless deployments on Vercel.</p>
+
+  <h2>2. Programming Languages Used to Build This Site</h2>
+  <table>
+    <tr><th>Language</th><th>Usage & Domain</th><th>Key Files & Implementation</th></tr>
+    <tr><td><b>TypeScript (v5.x / 7.x)</b></td><td>Full-Stack Strongly Typed Core (Frontend & Backend)</td><td><code>src/App.tsx</code>, <code>server.ts</code>, <code>src/types.ts</code>, <code>server/auth.ts</code>, <code>server/store.ts</code>, <code>server/security.ts</code>. Eliminates runtime type errors, enforces contracts.</td></tr>
+    <tr><td><b>JavaScript (ES2024 / Node.js)</b></td><td>Vite Build Toolchain & Serverless Runtime</td><td><code>vite.config.ts</code>, <code>api/[...route].ts</code>, Vercel Serverless Function engine, dynamic ES module imports.</td></tr>
+    <tr><td><b>SQL (PostgreSQL 15+)</b></td><td>Relational Database Schema & Data Integrity</td><td><code>supabase/schema.sql</code>, <code>supabase/seed.sql</code>. Users, courses, enrolments, payments, certificates, foreign keys, constraints.</td></tr>
+    <tr><td><b>HTML5</b></td><td>Semantic Web & Accessible UI Structure</td><td><code>index.html</code>, semantic page elements (&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;), OpenGraph metadata tags.</td></tr>
+    <tr><td><b>CSS3 & Tailwind CSS (v4)</b></td><td>Design System, Responsive Layout & Theming</td><td><code>src/index.css</code>, modern CSS layer syntax, responsive flexbox/grid, dark & light theme modes.</td></tr>
+    <tr><td><b>JSON / JSON-LD</b></td><td>Data Persistence & Structured Configuration</td><td><code>data/lms-db.json</code>, <code>metadata.json</code>, <code>vercel.json</code>, <code>package.json</code>.</td></tr>
+  </table>
+
+  <h2>3. Frameworks, Libraries & Technology Stack</h2>
+  <table>
+    <tr><th>Technology</th><th>Version / Package</th><th>Role in System</th></tr>
+    <tr><td><b>React 19</b></td><td>v19.0.1</td><td>Component architecture, reactive dashboard, context state management</td></tr>
+    <tr><td><b>Tailwind CSS v4</b></td><td>v4.3.3</td><td>Utility-first CSS styling, responsive layout, dark mode tokens</td></tr>
+    <tr><td><b>Vite 8</b></td><td>v8.3.0</td><td>High-speed development server and production build bundler</td></tr>
+    <tr><td><b>Express.js</b></td><td>v4.21.2</td><td>Server REST API router, security middleware, rate limiters, session cookies</td></tr>
+    <tr><td><b>Supabase PostgreSQL</b></td><td>v2.119.0</td><td>Relational persistent database across serverless function instances</td></tr>
+    <tr><td><b>Paystack Gateway</b></td><td>v2.28.2</td><td>Ghana GHS payment integration for MTN, Telecel, AT Mobile Money and Card</td></tr>
+    <tr><td><b>Nodemailer</b></td><td>v10.6.0</td><td>SMTP email client sending real-time 6-digit 2FA login verification codes</td></tr>
+    <tr><td><b>Node.js Crypto</b></td><td>Native</td><td>HMAC-SHA256 OTP hashing, HMAC-SHA512 Paystack webhook signatures, database integrity seals</td></tr>
+  </table>
+
+  <h2>4. Core Modules & Production Architecture</h2>
+  <ul>
+    <li><b>Authentication & 2FA:</b> Email 2FA challenges with 6-digit cryptographic OTPs and automated account lockouts.</li>
+    <li><b>Course Catalog & Video LMS:</b> 8 career tracks with structured lessons, free preview access, and locked premium content.</li>
+    <li><b>Automated Paystack Payment:</b> Seamless Mobile Money transactions with automatic webhook approval and receipt issuance.</li>
+    <li><b>Google Drive Material Library:</b> Instant Google Drive cloud resource unlocking upon payment verification.</li>
+    <li><b>Certificate Generator:</b> Automated serial-numbered certificates (EKTS-2026-XXXXX) upon 100% course completion.</li>
+    <li><b>CIA Triad Security:</b> Tamper-proof database seal and cryptographically linked security audit logs.</li>
+    <li><b>Zero-Downtime Fallback:</b> Instant default bootstrap dataset so Vercel cold starts never render blank screens.</li>
+  </ul>
+
+  <div class="footer">
+    EK TECH SOLUTIONS Online Academy — Built with TypeScript, React 19, Tailwind CSS v4, Node.js, Express & PostgreSQL.
+  </div>
+</body>
+</html>

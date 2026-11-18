@@ -8,6 +8,8 @@ import {
   Cpu,
   CreditCard,
   ExternalLink,
+  Eye,
+  EyeOff,
   Printer,
   ShieldCheck,
   Smartphone,
@@ -802,3 +804,31 @@ export function CertificateModal({
     </div>
   );
 }
+
+export function PasswordInput({
+  className = 'w-full px-3.5 py-2.5 text-sm rounded-xl border border-[#E7DDD4] dark:border-slate-700 bg-white dark:bg-slate-800',
+  ...props
+}: Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'>) {
+  const [visible, setVisible] = useState(false);
+
+  return (
+    <div className="relative">
+      <input
+        {...props}
+        type={visible ? 'text' : 'password'}
+        className={`${className} pr-10`}
+      />
+      <button
+        type="button"
+        onClick={() => setVisible((prev) => !prev)}
+        aria-label={visible ? 'Hide password' : 'Show password'}
+        aria-pressed={visible}
+        title={visible ? 'Hide password' : 'Show password'}
+        className="absolute inset-y-0 right-0 flex items-center px-3 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 cursor-pointer"
+      >
+        {visible ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+      </button>
+    </div>
+  );
+}
+

@@ -80,6 +80,16 @@ const COURSE_DRIVE_DEFAULTS: Record<
     driveFolderName: 'AI Video Creation Tutorials (Google Drive)',
     isFeatured: true,
   },
+  'crs-3': {
+    driveFolderId: '1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN',
+    driveFolderName: 'AI for Business & Workflows (Google Drive)',
+    isFeatured: true,
+  },
+  'crs-4': {
+    driveFolderId: '1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro',
+    driveFolderName: 'Applied Prompt Engineering Studio (Google Drive)',
+    isFeatured: true,
+  },
   'crs-5': {
     driveFolderId: '1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro',
     driveFolderName: 'Graphic Design Prompts & Tutorials (Google Drive)',
@@ -87,6 +97,21 @@ const COURSE_DRIVE_DEFAULTS: Record<
     title: 'Graphic Design Prompts & Modern Brand Identity',
     summary:
       'Start with Lesson 1 free, then unlock the complete Google Drive Graphic Design Prompts & Modern Brand Identity library after payment.',
+  },
+  'crs-6': {
+    driveFolderId: '1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN',
+    driveFolderName: 'Full-Stack Web & TypeScript Code (Google Drive)',
+    isFeatured: true,
+  },
+  'crs-7': {
+    driveFolderId: '1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN',
+    driveFolderName: 'Digital Skills & Computer Essentials (Google Drive)',
+    isFeatured: true,
+  },
+  'crs-8': {
+    driveFolderId: '1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ',
+    driveFolderName: 'AI Digital Marketing & Video Templates (Google Drive)',
+    isFeatured: true,
   },
 };
 

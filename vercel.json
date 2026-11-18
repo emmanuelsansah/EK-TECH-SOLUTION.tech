@@ -5,12 +5,16 @@
   "functions": {
     "api/**/*.ts": {
       "maxDuration": 30,
-      "includeFiles": "{data/lms-db.json,supabase/*.sql}"
+      "includeFiles": "{data/lms-db.json,supabase/*.sql,public/downloads/*}"
     }
   },
   "rewrites": [
     {
-      "source": "/((?!api(?:/|$)|assets/|src/|.*\\.(?:js|css|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|mp4|webm|mov|woff|woff2|ttf|eot|json|txt|xml|pdf)$).*)",
+      "source": "/api/(.*)",
+      "destination": "/api/index?__api_path=/api/$1"
+    },
+    {
+      "source": "/((?!api(?:/|$)|assets/|downloads/|src/|.*\\.(?:js|css|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|mp4|webm|mov|woff|woff2|ttf|eot|json|txt|xml|pdf|docx|doc)$).*)",
       "destination": "/index.html"
     }
   ]

@@ -19,7 +19,7 @@ import { apiFetch } from '../lib/api';
 import { useApp } from '../context/AppContext';
 import { DashboardShell, type NavItem } from '../components/DashboardShell';
 import { GoogleDrivePanel } from '../components/GoogleDrivePanel';
-import { StatusIndicator } from '../components/UiPrimitives';
+import { PasswordInput, StatusIndicator } from '../components/UiPrimitives';
 import type {
   Assignment,
   AssignmentSubmission,
@@ -940,8 +940,7 @@ export function InstructorDashboard() {
               <label className="block text-xs font-medium mb-1">
                 New Strong Password (optional — 8+ chars, upper/lower/number/symbol)
               </label>
-              <input
-                type="password"
+              <PasswordInput
                 minLength={8}
                 placeholder="Leave blank to keep current password"
                 value={profileForm.newPassword}
