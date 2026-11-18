@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { apiFetch, getStoredToken, setStoredToken } from '../lib/api';
 import { testSupabaseBrowserConnection, fetchSupabaseCourses, fetchSupabaseCategories } from '../lib/supabase';
+import { DEFAULT_FALLBACK_BOOTSTRAP } from '../lib/fallbackData';
 import type { PublicBootstrap, User } from '../types';
 
 export type RoutePath = string;
@@ -8,7 +9,7 @@ export type RoutePath = string;
 interface AppContextValue {
   user: User | null;
   authLoading: boolean;
-  bootstrap: PublicBootstrap | null;
+  bootstrap: PublicBootstrap;
   currentPath: string;
   theme: 'light' | 'dark' | 'emerald';
   supabaseConnected: boolean;
@@ -27,7 +28,7 @@ const AppContext = createContext<AppContextValue | null>(null);
 export function AppProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
-  const [bootstrap, setBootstrap] = useState<PublicBootstrap | null>(null);
+  const [bootstrap, setBootstrap] = useState<PublicBootstrap>(DEFAULT_FALLBACK_BOOTSTRAP);
   const [supabaseConnected, setSupabaseConnected] = useState(false);
   const [supabaseLatency, setSupabaseLatency] = useState(0);
   const [currentPath, setCurrentPath] = useState<string>(() => window.location.pathname || '/');
@@ -85,8 +86,14 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const refreshBootstrap = useCallback(async () => {
-    const data = await apiFetch<PublicBootstrap>('/api/public/bootstrap');
-    setBootstrap(data);
+    try {
+      const data = await apiFetch<PublicBootstrap>('/api/public/bootstrap');
+      if (data && Array.isArray(data.courses) && data.courses.length > 0) {
+        setBootstrap(data);
+      }
+    } catch (err: any) {
+      console.warn('[Bootstrap Sync]: Backend is initializing, serving built-in academy content:', err?.message || err);
+    }
   }, []);
 
   const refreshUser = useCallback(async () => {

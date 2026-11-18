@@ -28,9 +28,31 @@ export function CourseThumbnail({
   alt: string;
   className?: string;
 }) {
+  const [currentSrc, setCurrentSrc] = useState(src);
+  const [hasTriedFallback, setHasTriedFallback] = useState(false);
   const [errored, setErrored] = useState(false);
 
-  if (!src || errored) {
+  React.useEffect(() => {
+    setCurrentSrc(src);
+    setHasTriedFallback(false);
+    setErrored(false);
+  }, [src]);
+
+  const handleError = () => {
+    if (!hasTriedFallback && currentSrc) {
+      setHasTriedFallback(true);
+      if (currentSrc.startsWith('/src/assets/')) {
+        setCurrentSrc(currentSrc.replace('/src/assets/', '/assets/'));
+        return;
+      } else if (currentSrc.startsWith('/assets/')) {
+        setCurrentSrc('/src' + currentSrc);
+        return;
+      }
+    }
+    setErrored(true);
+  };
+
+  if (!currentSrc || errored) {
     return (
       <div
         className={`flex flex-col items-center justify-center bg-gradient-to-br from-[#111827] via-[#1F2937] to-[#EA580C] text-white p-6 ${className}`}
@@ -43,10 +65,10 @@ export function CourseThumbnail({
 
   return (
     <img
-      src={src}
+      src={currentSrc}
       alt={alt}
       referrerPolicy="no-referrer"
-      onError={() => setErrored(true)}
+      onError={handleError}
       className={className}
     />
   );

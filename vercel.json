@@ -10,7 +10,7 @@
   },
   "rewrites": [
     {
-      "source": "/((?!api/|assets/|src/|.*\\.(?:js|css|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|mp4|webm|mov|woff|woff2|ttf|eot|json|txt|xml|pdf)$).*)",
+      "source": "/((?!api(?:/|$)|assets/|src/|.*\\.(?:js|css|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|mp4|webm|mov|woff|woff2|ttf|eot|json|txt|xml|pdf)$).*)",
       "destination": "/index.html"
     }
   ]

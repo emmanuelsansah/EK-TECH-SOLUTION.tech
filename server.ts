@@ -61,6 +61,15 @@ const SERVER_STARTED_AT = Date.now();
 const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
+
+// Ensure all incoming requests under Vercel serverless keep the /api prefix for Express router
+app.use((req, _res, next) => {
+  if (process.env.VERCEL && req.url && !req.url.startsWith('/api')) {
+    req.url = '/api' + (req.url.startsWith('/') ? req.url : '/' + req.url);
+  }
+  next();
+});
+
 app.use(securityHeadersMiddleware);
 app.use(
   express.json({

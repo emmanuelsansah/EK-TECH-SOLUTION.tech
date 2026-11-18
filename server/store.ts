@@ -120,7 +120,14 @@ export async function hydrateStoreFromSupabase(): Promise<void> {
     return;
   }
   try {
-    const remoteDb = await loadDatabaseFromSupabase();
+    const loadPromise = loadDatabaseFromSupabase();
+    const timeoutPromise = new Promise<null>((resolve) =>
+      setTimeout(() => {
+        console.warn('[Supabase Hydration Timeout]: Proceeding with local/cached LMS state to prevent lambda stall.');
+        resolve(null);
+      }, 2500)
+    );
+    const remoteDb = await Promise.race([loadPromise, timeoutPromise]);
     if (remoteDb) {
       if (!Array.isArray(remoteDb.otpChallenges)) remoteDb.otpChallenges = [];
       if (!Array.isArray(remoteDb.securityLogs)) remoteDb.securityLogs = [];
@@ -203,11 +210,21 @@ export function getDb(): LmsDatabase {
   if (memoryDb) return memoryDb;
   try {
     ensureDataDir();
-    const sourceFile = fs.existsSync(DB_FILE)
-      ? DB_FILE
-      : fs.existsSync(BUNDLED_DB_FILE)
-      ? BUNDLED_DB_FILE
-      : null;
+    const candidateFiles = [
+      DB_FILE,
+      BUNDLED_DB_FILE,
+      path.resolve(process.cwd(), 'data', 'lms-db.json'),
+      path.resolve(process.cwd(), 'api', '..', 'data', 'lms-db.json'),
+      path.resolve(import.meta.dirname || process.cwd(), '..', 'data', 'lms-db.json'),
+      path.resolve('/var/task', 'data', 'lms-db.json'),
+    ];
+    let sourceFile: string | null = null;
+    for (const cand of candidateFiles) {
+      if (fs.existsSync(cand)) {
+        sourceFile = cand;
+        break;
+      }
+    }
     if (sourceFile) {
       const raw = fs.readFileSync(sourceFile, 'utf8');
       const parsed = JSON.parse(raw) as LmsDatabase;
