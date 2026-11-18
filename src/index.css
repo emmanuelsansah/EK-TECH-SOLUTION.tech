@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant emerald (&:where(.emerald, .emerald *));
+
+.emerald {
+  color-scheme: dark;
+  background-color: #061A14;
+  color: #E6F4EA;
+}
+.emerald body {
+  background-color: #061A14;
+  color: #E6F4EA;
+}
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    --ek-cream: #FFF7F0;
+    --ek-peach: #FFE8D6;
+    --ek-orange: #EA580C;
+    --ek-orange-hover: #D44E07;
+    --ek-ink: #111827;
+    --ek-muted: #4B5563;
+    --ek-border: #EFE7DF;
+  }
+
+  html {
+    font-family: var(--font-body);
+    scroll-behavior: smooth;
+    color: var(--ek-ink);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

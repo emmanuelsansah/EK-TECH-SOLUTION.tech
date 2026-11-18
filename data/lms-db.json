@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 3,
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "fullName": "Emmanuel Sansah",
+      "email": "admin@ektechsolutions.com",
+      "phone": "0551464715",
+      "passwordHash": "a19efc0cd33990419e18f9ac3c515958:e371bedac33760affc03c2d93946dba7cb02e0444b86e826610d16be16fa0bbf54eea952b0a9ad5c2daeaa13c4105c24aa6e6a6e2f10481757f35d5c019104c9",
+      "role": "SUPER_ADMIN",
+      "avatarUrl": "/assets/aistudio/file_00000000a15471f5ba7cf46620f2a80f_8115ee43.png",
+      "bio": "Emmanuel Sansah | 💻 IT Specialist | AI Expert | Graphic Designer | Web Development | 🧠 Prompt Engineering | Tech Solutions | AI & Tech Knowledge",
+      "title": "Founder & Academy Administrator",
+      "location": "Tarkwa, Western Region & Accra, Ghana",
+      "status": "ACTIVE",
+      "emailVerified": true,
+      "twoFactorEnabled": true,
+      "tokenVersion": 1,
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-08-01T08:00:00.000Z",
+      "lastLoginAt": "2026-11-18T09:56:14.968Z"
+    },
+    {
+      "id": "usr-inst-1",
+      "fullName": "Emmanuel Sansah",
+      "email": "emmanuelsansah020@gmail.com",
+      "phone": "0551464715",
+      "passwordHash": "5149be23c03f050218a4007d8d6a20a4:331bef0995af509788141348afa685761548461c4ffb33037a5d3e5deab726d49b6b492d91785e20724712ea60abad3eee6289d0bcdea2ee17f36a4c40d7381f",
+      "role": "INSTRUCTOR",
+      "avatarUrl": "/assets/aistudio/file_00000000a15471f5ba7cf46620f2a80f_8115ee43.png",
+      "bio": "Emmanuel Sansah | 💻 IT Specialist | AI Expert | Graphic Designer | Web Development | 🧠 Prompt Engineering | Tech Solutions | AI & Tech Knowledge",
+      "title": "Lead AI Website & Video Creation Instructor",
+      "location": "Tarkwa, Western Region & Accra, Ghana",
+      "status": "ACTIVE",
+      "emailVerified": true,
+      "twoFactorEnabled": true,
+      "tokenVersion": 1,
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-08-05T09:00:00.000Z"
+    },
+    {
+      "id": "usr-stu-1",
+      "fullName": "Kofi Agyemang",
+      "email": "kofi.student@ektechsolutions.com",
+      "phone": "0552345678",
+      "passwordHash": "79aaa556986740af2abe66a2d8fe901e:d1108cc9497e6bff865428ccb9c2dde4210d2aac44a5235ca97b3debd1109b945153683a59f4ffeabaf51656cea30c49c95c26258f49621d8cd90a75ae73ee27",
+      "role": "STUDENT",
+      "avatarUrl": "/src/assets/images/instructor_systems_1794843662963.jpg",
+      "bio": "Aspiring web developer and AI freelancer building digital solutions for local enterprises.",
+      "title": "Academy Student",
+      "location": "Tema, Ghana",
+      "status": "ACTIVE",
+      "emailVerified": true,
+      "twoFactorEnabled": true,
+      "tokenVersion": 1,
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-09-12T14:20:00.000Z"
+    },
+    {
+      "id": "usr-stu-2",
+      "fullName": "Ama Serwaa",
+      "email": "ama.student@ektechsolutions.com",
+      "phone": "0548765432",
+      "passwordHash": "5e999b8019c4530c3ef3439f1fabbafd:f6071de461318c045e32c94b8e84fbeeab0e8e6f3f85221fb1ef5f0aec07a92d7c64fd6d20bdabf0657c52a15d2cfcfd5b18ac49a902e2eb0839d37540f9952f",
+      "role": "STUDENT",
+      "avatarUrl": "/src/assets/images/instructor_creative_1794843662447.jpg",
+      "bio": "Marketing coordinator learning AI video creation and structured prompt engineering.",
+      "title": "Academy Student",
+      "location": "Accra, Ghana",
+      "status": "ACTIVE",
+      "emailVerified": true,
+      "twoFactorEnabled": true,
+      "tokenVersion": 1,
+      "failedLoginAttempts": 0,
+      "createdAt": "2026-09-20T16:10:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "AI Website Development",
+      "slug": "ai-website-development",
+      "description": "Design, build, host, and connect domains for production websites with modern AI workflows.",
+      "orderIndex": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "AI Video Creation",
+      "slug": "ai-video-creation",
+      "description": "Script, synthesize, edit, and color-grade commercial videos using generative AI video tools.",
+      "orderIndex": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "description": "Core AI literacy, model workflows, and practical AI integration for education and business.",
+      "orderIndex": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Prompt Engineering",
+      "slug": "prompt-engineering",
+      "description": "Structured prompting frameworks for code generation, research, and automated operations.",
+      "orderIndex": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Graphic Design",
+      "slug": "graphic-design",
+      "description": "Visual identity systems, typography, layout grids, and commercial branding workflows.",
+      "orderIndex": 5
+    },
+    {
+      "id": "cat-6",
+      "name": "Web Development",
+      "slug": "web-development",
+      "description": "HTML, CSS, TypeScript, React, APIs, and hosting from fundamentals to deployment.",
+      "orderIndex": 6
+    },
+    {
+      "id": "cat-7",
+      "name": "Computer Training",
+      "slug": "computer-training",
+      "description": "Essential digital productivity, cloud collaboration, spreadsheets, and cybersecurity hygiene.",
+      "orderIndex": 7
+    },
+    {
+      "id": "cat-8",
+      "name": "Digital Marketing",
+      "slug": "digital-marketing",
+      "description": "Audience growth, content systems, paid campaigns, and AI-assisted analytics.",
+      "orderIndex": 8
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs-1",
+      "title": "AI Website Development Mastery",
+      "slug": "ai-website-development-mastery",
+      "categoryId": "cat-1",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_webdev_1794843660816.jpg",
+      "summary": "Watch Lesson 1 free on sign-in, then unlock the complete Google Drive AI Web Design Course (Detailed Tutorials, Hosting, Custom Domains & Bonuses) for GH₵ 50.",
+      "description": "Master AI-powered website design and publishing with Emmanuel Sansah. Fresh students watch Lesson 1 (1 MUST WATCH) free immediately after login. Complete the GH₵ 50 MTN Mobile Money payment to unlock the remaining Google Drive video modules—Detailed Tutorials, Other Website Examples, Hosting Your Website, Domain Name setup, Android App conversion, Troubleshooting, and Bonuses—using your sign-up email.",
+      "priceGhs": 50,
+      "isFree": false,
+      "duration": "6 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": true,
+      "driveFolderName": "AI Website Development Tutorials (Google Drive)",
+      "learningObjectives": [
+        "Follow the step-by-step AI Web Design curriculum from Lesson 1 free orientation",
+        "Build real client and business websites with detailed AI tutorials and examples",
+        "Host your finished website online and connect a custom domain name",
+        "Package responsive web builds into Android apps and troubleshoot errors"
+      ],
+      "requirements": [
+        "A laptop, desktop, or smartphone with internet access",
+        "Valid sign-up Gmail address to receive full Google Drive video access after payment"
+      ],
+      "completionRequirement": "Watch Lesson 1 free, complete GH₵ 50 MTN MoMo payment to unlock all remaining videos, and finish the course quiz.",
+      "createdAt": "2026-10-15T09:00:00.000Z",
+      "driveFolderId": "1Kzr26pgYSYro2pnP8W1lUFspy7_SwPQN"
+    },
+    {
+      "id": "crs-2",
+      "title": "AI Video Creation & Commercial Editing",
+      "slug": "ai-video-creation-commercial-editing",
+      "categoryId": "cat-2",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_video_1794843660832.jpg",
+      "summary": "Start with the free introduction video, then unlock the full AI Video Creation & Commercial Editing training series for GH₵ 50.",
+      "description": "Learn how creators and agencies produce studio-grade adverts, social reels, and explainers using generative AI video pipelines. Start with Lesson 1 free on fresh login, then unlock all remaining tutorials and Google Drive video folders using your sign-up email after GH₵ 50 Mobile Money confirmation.",
+      "priceGhs": 50,
+      "isFree": false,
+      "duration": "5 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": true,
+      "driveFolderName": "AI Video Creation Tutorials (Google Drive)",
+      "learningObjectives": [
+        "Write high-retention video scripts and shot lists with AI tools",
+        "Generate consistent visual scenes, voiceovers, and studio B-roll",
+        "Edit rhythmic timelines, captions, and commercial sound mixes",
+        "Export commercial deliverables for YouTube, TikTok, Instagram, and clients"
+      ],
+      "requirements": [
+        "Computer or smartphone capable of running modern video editors",
+        "Valid sign-up email address for post-payment video folder access"
+      ],
+      "completionRequirement": "Unlock all modules via GH₵ 50 MoMo verification and submit your 45-second commercial project.",
+      "createdAt": "2026-10-15T09:00:00.000Z",
+      "driveFolderId": "1OccyWRAGt64BkaO3PXsLAXhInnfZG5uZ"
+    },
+    {
+      "id": "crs-3",
+      "title": "Artificial Intelligence for Business & Education",
+      "slug": "artificial-intelligence-business-education",
+      "categoryId": "cat-3",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_systems_1794843661238.jpg",
+      "summary": "Practical AI implementation for educators, entrepreneurs, and teams looking to automate daily workflows.",
+      "description": "Go beyond casual chat usage. Understand how large language models work, build reliable document workflows, automate customer support drafts, create lesson plans, and maintain data privacy across your organization.",
+      "priceGhs": 150,
+      "isFree": false,
+      "duration": "8 Weeks",
+      "difficulty": "Intermediate",
+      "isPublished": true,
+      "isFeatured": true,
+      "learningObjectives": [
+        "Design repeatable AI workflows for reporting, research, and curriculum design",
+        "Evaluate AI outputs for factual accuracy and institutional compliance",
+        "Integrate no-code automation bridges between forms, sheets, and email"
+      ],
+      "requirements": [
+        "Familiarity with office productivity tools (Docs, Sheets, Email)"
+      ],
+      "completionRequirement": "Complete all modules and pass the AI Systems Assessment.",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "crs-4",
+      "title": "Applied Prompt Engineering Studio",
+      "slug": "applied-prompt-engineering-studio",
+      "categoryId": "cat-4",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_systems_1794843661238.jpg",
+      "summary": "Master precision prompting patterns—chain-of-thought, structured JSON schemas, and reusable prompt libraries.",
+      "description": "Learn the engineering discipline behind reliable AI outputs. Stop guessing with vague one-liners and start writing deterministic system prompts, evaluation rubrics, and domain-specific templates.",
+      "priceGhs": 100,
+      "isFree": false,
+      "duration": "4 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": true,
+      "learningObjectives": [
+        "Apply role, context, constraint, and output-format frameworks",
+        "Use few-shot examples to enforce consistent tone and structure",
+        "Build a personal prompt library for coding, writing, and analysis"
+      ],
+      "requirements": [
+        "Basic web browsing skills"
+      ],
+      "completionRequirement": "Complete all modules and score 75%+ on the Prompt Engineering Exam.",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "crs-5",
+      "title": "Graphic Design Prompts & Modern Brand Identity",
+      "slug": "graphic-design-modern-brand-identity",
+      "categoryId": "cat-5",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_design_digital_1794843661469.jpg",
+      "summary": "Start with Lesson 1 free, then unlock the complete Google Drive Graphic Design Prompts & Modern Brand Identity library after payment.",
+      "description": "A hands-on design academy track covering visual hierarchy, color theory, print-ready flyers, social media kits, and complete brand books using modern design tools.",
+      "priceGhs": 120,
+      "isFree": false,
+      "duration": "6 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": true,
+      "learningObjectives": [
+        "Construct balanced typographic hierarchies and grid layouts",
+        "Design vector logo marks and cohesive brand color systems",
+        "Package print and digital brand assets for paying clients"
+      ],
+      "requirements": [
+        "Laptop or desktop computer"
+      ],
+      "completionRequirement": "Submit a complete 5-page Brand Identity Guide.",
+      "createdAt": "2026-10-15T09:00:00.000Z",
+      "driveFolderId": "1-X_O9cbsQJdXCwq-E2xHDh22SGGYx9ro",
+      "driveFolderName": "Graphic Design Prompts & Tutorials (Google Drive)"
+    },
+    {
+      "id": "crs-6",
+      "title": "Full-Stack Web Development & TypeScript",
+      "slug": "full-stack-web-development-typescript",
+      "categoryId": "cat-6",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_webdev_1794843660816.jpg",
+      "summary": "Deep dive into modern JavaScript, TypeScript, React, Node.js REST APIs, and PostgreSQL/Supabase databases.",
+      "description": "Become a job-ready full-stack engineer. Build real authentication systems, relational schemas, REST endpoints, and responsive React applications with strict type safety.",
+      "priceGhs": 200,
+      "isFree": false,
+      "duration": "10 Weeks",
+      "difficulty": "Intermediate",
+      "isPublished": true,
+      "isFeatured": false,
+      "learningObjectives": [
+        "Build type-safe React applications with hooks and state management",
+        "Design REST APIs with Express and PostgreSQL/Supabase",
+        "Implement secure password hashing, RBAC permissions, and deployment"
+      ],
+      "requirements": [
+        "Basic familiarity with HTML/CSS or completion of AI Website Development"
+      ],
+      "completionRequirement": "Complete all lessons and deploy a full-stack capstone.",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "crs-7",
+      "title": "Digital Skills & Computer Training Essentials",
+      "slug": "digital-skills-computer-training",
+      "categoryId": "cat-7",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_design_digital_1794843661469.jpg",
+      "summary": "Introductory computer training covering cloud workspace tools, spreadsheets, documents, and online safety.",
+      "description": "Designed for students, job seekers, and professionals building strong everyday computer fluency. Learn file organization, business spreadsheets, slide decks, email etiquette, and cybersecurity essentials.",
+      "priceGhs": 50,
+      "isFree": false,
+      "duration": "3 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": false,
+      "learningObjectives": [
+        "Organize cloud drives, documents, and collaborative spreadsheets",
+        "Protect personal and workplace accounts against phishing and scams",
+        "Prepare professional reports and presentations efficiently"
+      ],
+      "requirements": [
+        "Access to a computer or tablet"
+      ],
+      "completionRequirement": "Complete all lessons and the Digital Literacy Quiz.",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "crs-8",
+      "title": "AI-Powered Digital Marketing & Growth",
+      "slug": "ai-powered-digital-marketing-growth",
+      "categoryId": "cat-8",
+      "instructorId": "usr-inst-1",
+      "thumbnailUrl": "/src/assets/images/course_ai_video_1794843660832.jpg",
+      "summary": "Plan customer acquisition funnels, social content calendars, and conversion copy using data and AI.",
+      "description": "Learn practical digital marketing tailored for West African and international online businesses—covering positioning, WhatsApp Business funnels, Meta ads fundamentals, and campaign analytics.",
+      "priceGhs": 100,
+      "isFree": false,
+      "duration": "4 Weeks",
+      "difficulty": "Beginner",
+      "isPublished": true,
+      "isFeatured": false,
+      "learningObjectives": [
+        "Build a 30-day multi-channel content and campaign calendar",
+        "Design high-converting landing offers and WhatsApp follow-up flows",
+        "Measure ROI, cost per lead, and retention metrics"
+      ],
+      "requirements": [
+        "Active smartphone or laptop"
+      ],
+      "completionRequirement": "Complete all lessons and submit a campaign brief.",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod-1",
+      "courseId": "crs-1",
+      "title": "1) WATCH THIS — Free Course Orientation",
+      "description": "Required free introductory walkthrough available immediately after login.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-2",
+      "courseId": "crs-1",
+      "title": "2) DETAILED TUTORIAL & OTHER WEBSITE EXAMPLES (Paid Google Drive Access)",
+      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
+      "orderIndex": 2
+    },
+    {
+      "id": "mod-3",
+      "courseId": "crs-1",
+      "title": "3) HOSTING YOUR WEBSITE, DOMAIN NAME, ANDROID APP & BONUSES (Paid Google Drive Access)",
+      "description": "Live hosting, custom domain linking, Android packaging, and troubleshooting.",
+      "orderIndex": 3
+    },
+    {
+      "id": "mod-4",
+      "courseId": "crs-2",
+      "title": "1) WATCH THIS — Free Intro & Storyboarding Overview",
+      "description": "Free preview lesson explaining the AI Video Creation workflow.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-5",
+      "courseId": "crs-2",
+      "title": "2) FULL AI VIDEO PRODUCTION PIPELINE (Paid Google Drive Access)",
+      "description": "Unlocked for your sign-up email after GH₵ 50 MTN Mobile Money confirmation.",
+      "orderIndex": 2
+    },
+    {
+      "id": "mod-6",
+      "courseId": "crs-3",
+      "title": "Module 1: Practical AI Workflows for Organizations",
+      "description": "Identify high-ROI automation points in education and business.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-7",
+      "courseId": "crs-4",
+      "title": "Module 1: Precision Prompt Frameworks",
+      "description": "Role, constraints, few-shot calibration, and structured schemas.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-8",
+      "courseId": "crs-5",
+      "title": "Module 1: Visual Grids & Typography Systems",
+      "description": "Proportions, contrast ratios, and modern brand identity foundations.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-9",
+      "courseId": "crs-6",
+      "title": "Module 1: TypeScript, React & API Architecture",
+      "description": "Modern full-stack engineering fundamentals.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-10",
+      "courseId": "crs-7",
+      "title": "Module 1: Core Workplace Computer Fluency",
+      "description": "Essential cloud productivity, spreadsheets, and security habits.",
+      "orderIndex": 1
+    },
+    {
+      "id": "mod-11",
+      "courseId": "crs-8",
+      "title": "Module 1: Conversion Funnels & Campaign Analytics",
+      "description": "Structured digital marketing for online brands.",
+      "orderIndex": 1
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-1",
+      "moduleId": "mod-1",
+      "courseId": "crs-1",
+      "title": "1) MUST WATCH!! — Course Introduction & Google Drive Roadmap",
+      "description": "Start here free: Emmanuel Sansah walks through the complete AI Web Design Course folders inside Google Drive and shows what you will build and publish.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Course_Roadmap_and_Folders_Guide.pdf",
+      "pdfSummary": "Overview of the 8 Google Drive training folders and project requirements.",
+      "practicalExercise": "Watch this intro video completely, confirm your sign-up email, and prepare your GH₵ 50 MoMo enrolment to unlock Modules 2–3.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-2",
+      "moduleId": "mod-2",
+      "courseId": "crs-1",
+      "title": "2) DETAILED TUTORIAL — Building Your Complete AI Website",
+      "description": "Step-by-step detailed tutorial building a full modern business website from scratch using AI prompts, layout sections, and customization.",
+      "videoUrl": "",
+      "durationMinutes": 28,
+      "pdfTitle": "Detailed_AI_Website_Tutorial_Notes.pdf",
+      "pdfSummary": "Full step-by-step specification prompts and customization guide.",
+      "practicalExercise": "Follow the Detailed Tutorial video to generate and customize a multi-section landing page.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-3",
+      "moduleId": "mod-2",
+      "courseId": "crs-1",
+      "title": "3) OTHER WEBSITE EXAMPLES — E-Commerce, School & Agency Builds",
+      "description": "Explore practical client website builds across different industries and adapt templates for paying clients.",
+      "videoUrl": "",
+      "durationMinutes": 24,
+      "pdfTitle": "Website_Examples_Prompt_Pack.pdf",
+      "pdfSummary": "Industry-specific prompt blueprints for agencies, clinics, schools, and shops.",
+      "practicalExercise": "Adapt one example website architecture for a Ghanaian business.",
+      "orderIndex": 3,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-4",
+      "moduleId": "mod-3",
+      "courseId": "crs-1",
+      "title": "4) HOSTING YOUR WEBSITE & 5) DOMAIN NAME SETUP",
+      "description": "Deploy your finished site live to global cloud hosting and connect a custom .com or .com.gh domain name cleanly.",
+      "videoUrl": "",
+      "durationMinutes": 22,
+      "pdfTitle": "Hosting_and_Custom_Domain_Checklist.pdf",
+      "pdfSummary": "DNS A-record, CNAME setup, SSL verification, and live launch steps.",
+      "practicalExercise": "Publish your site to a live HTTPS URL and verify mobile responsiveness.",
+      "orderIndex": 4,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-5",
+      "moduleId": "mod-3",
+      "courseId": "crs-1",
+      "title": "6) ANDROID APP PACKAGING, TROUBLESHOOT & FIX + BONUSES",
+      "description": "Package your responsive website into an installable Android app, resolve common build errors, and claim your bonus templates.",
+      "videoUrl": "",
+      "durationMinutes": 20,
+      "pdfTitle": "Android_App_and_Troubleshooting_Guide.pdf",
+      "pdfSummary": "Troubleshooting checklist and bonus resource links.",
+      "practicalExercise": "Test your deployed site in mobile viewport and inspect debug logs.",
+      "orderIndex": 5,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-6",
+      "moduleId": "mod-4",
+      "courseId": "crs-2",
+      "title": "1) MUST WATCH!! — Welcome & AI Video Course Overview",
+      "description": "Free preview tutorial introducing the AI Video Creation academy track and how full Google Drive access is shared to your sign-up email after GH₵ 50 payment.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Commercial_Storyboard_Grid.pdf",
+      "pdfSummary": "Printable 6-frame storyboard sheet with timing and audio cues.",
+      "practicalExercise": "Watch the orientation video and draft a 30-second product commercial hook.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-7",
+      "moduleId": "mod-5",
+      "courseId": "crs-2",
+      "title": "2) Generating Consistent AI Video Scenes & Voiceovers",
+      "description": "Control camera motion, lighting consistency, AI voice synthesis, and character framing across commercial video clips.",
+      "videoUrl": "",
+      "durationMinutes": 26,
+      "pdfTitle": "Camera_Motion_Prompt_Guide.pdf",
+      "pdfSummary": "Reference guide for dolly, pan, focal length, and lighting keywords.",
+      "practicalExercise": "Generate 3 matching B-roll prompts using consistent lighting and lens direction.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-8",
+      "moduleId": "mod-5",
+      "courseId": "crs-2",
+      "title": "3) Pacing, Audio Mastering & Commercial 4K Export",
+      "description": "Combine AI voiceover audio, background music ducking, kinetic captions, and social ad formatting.",
+      "videoUrl": "",
+      "durationMinutes": 25,
+      "pdfTitle": "Audio_Mastering_Levels.pdf",
+      "pdfSummary": "Target LUFS loudness and voice-to-music dB separation chart.",
+      "practicalExercise": "Assemble a 30-second timeline with voiceover peaks at -6dB and music bed at -22dB.",
+      "orderIndex": 3,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-9",
+      "moduleId": "mod-6",
+      "courseId": "crs-3",
+      "title": "1.1 Academy Orientation & AI Workflows Introduction",
+      "description": "Overview of practical AI automation across education and business.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "AI_Workflow_Audit_Matrix.pdf",
+      "pdfSummary": "Impact vs. verification-risk matrix for deploying AI across teams.",
+      "practicalExercise": "Map 3 daily tasks in your organization and assign human review checkpoints.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-10",
+      "moduleId": "mod-6",
+      "courseId": "crs-3",
+      "title": "1.2 Automating Reports, Lesson Plans & Support",
+      "description": "Build reliable document pipelines with human verification checkpoints.",
+      "videoUrl": "",
+      "durationMinutes": 24,
+      "pdfTitle": "Business_AI_Pipelines.pdf",
+      "pdfSummary": "Structured workflow templates for educators and managers.",
+      "practicalExercise": "Create a repeatable prompt workflow for weekly reporting.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-11",
+      "moduleId": "mod-7",
+      "courseId": "crs-4",
+      "title": "1.1 Orientation & 4-Pillar Prompt Engineering Overview",
+      "description": "Eliminate vague responses using Role, Context, Constraints, and Output Schema blocks.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Precision_Prompt_Workbook.pdf",
+      "pdfSummary": "15 tested prompt templates for coding, summarization, and customer communication.",
+      "practicalExercise": "Rewrite a 1-sentence request into a structured 4-pillar prompt.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-12",
+      "moduleId": "mod-7",
+      "courseId": "crs-4",
+      "title": "1.2 Few-Shot Calibration & Structured JSON Outputs",
+      "description": "Force consistent tone, formatting, and schema output across repetitive tasks.",
+      "videoUrl": "",
+      "durationMinutes": 22,
+      "pdfTitle": "JSON_Schema_Prompting.pdf",
+      "pdfSummary": "Examples for extracting structured data with AI.",
+      "practicalExercise": "Design a few-shot prompt with 2 clean input/output examples.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-13",
+      "moduleId": "mod-8",
+      "courseId": "crs-5",
+      "title": "1.1 Layout Grids & Typographic Hierarchy Intro",
+      "description": "Apply 8px spacing scales, two-font pairings, and clear focal anchors.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Typography_Spacing_Reference.pdf",
+      "pdfSummary": "Display-to-body type scale ratios and safe contrast combinations.",
+      "practicalExercise": "Design a clean event announcement layout using only 2 type sizes.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-14",
+      "moduleId": "mod-8",
+      "courseId": "crs-5",
+      "title": "1.2 Logo Systems & Commercial Brand Books",
+      "description": "Build vector marks and complete identity deliverables for clients.",
+      "videoUrl": "",
+      "durationMinutes": 25,
+      "pdfTitle": "Brand_Book_Checklist.pdf",
+      "pdfSummary": "Deliverable checklist for commercial branding clients.",
+      "practicalExercise": "Assemble a 3-color brand palette with hex specifications.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-15",
+      "moduleId": "mod-9",
+      "courseId": "crs-6",
+      "title": "1.1 TypeScript Data Modeling & Intro Walkthrough",
+      "description": "Define strict shared interfaces between React views and Express/PostgreSQL endpoints.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "TypeScript_API_Architecture.pdf",
+      "pdfSummary": "Schema-first design guide for full-stack TypeScript projects.",
+      "practicalExercise": "Write TypeScript interfaces for an enrolment and payment payload.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-16",
+      "moduleId": "mod-9",
+      "courseId": "crs-6",
+      "title": "1.2 Authentication, Sessions & Relational Databases",
+      "description": "Build secure password hashing, RBAC permissions, and Postgres persistence.",
+      "videoUrl": "",
+      "durationMinutes": 30,
+      "pdfTitle": "FullStack_Security_Notes.pdf",
+      "pdfSummary": "Session cookies, scrypt hashing, and SQL constraints.",
+      "practicalExercise": "Implement an authenticated POST endpoint with input validation.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-17",
+      "moduleId": "mod-10",
+      "courseId": "crs-7",
+      "title": "1.1 Digital Skills & Cloud Workspace Orientation",
+      "description": "Structure folders, share Google Drive documents securely, and manage digital files.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Cloud_Workspace_Starter.pdf",
+      "pdfSummary": "Folder naming conventions and cloud sharing permission checklist.",
+      "practicalExercise": "Create a 3-tier folder structure for projects, invoices, and certificates.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-18",
+      "moduleId": "mod-10",
+      "courseId": "crs-7",
+      "title": "1.2 Everyday Spreadsheets & Cybersecurity Hygiene",
+      "description": "Master business spreadsheets, 2FA protection, and Mobile Money fraud prevention.",
+      "videoUrl": "",
+      "durationMinutes": 20,
+      "pdfTitle": "Spreadsheet_and_Safety_Guide.pdf",
+      "pdfSummary": "Essential formulas and account protection checklist.",
+      "practicalExercise": "Build a monthly expense tracker with SUM formulas.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    },
+    {
+      "id": "les-19",
+      "moduleId": "mod-11",
+      "courseId": "crs-8",
+      "title": "1.1 High-Converting Offer Pages Intro",
+      "description": "Turn social traffic into qualified WhatsApp and web leads.",
+      "videoUrl": "/assets/aistudio/1__MUST_WATCH___72d89e86.mp4",
+      "durationMinutes": 5,
+      "pdfTitle": "Digital_Funnel_Blueprint.pdf",
+      "pdfSummary": "Awareness-to-conversion checklist for service businesses.",
+      "practicalExercise": "Write a 3-step WhatsApp follow-up sequence for course applicants.",
+      "orderIndex": 1,
+      "isFreePreview": true
+    },
+    {
+      "id": "les-20",
+      "moduleId": "mod-11",
+      "courseId": "crs-8",
+      "title": "1.2 Paid Campaigns & Conversion Analytics",
+      "description": "Measure cost per lead, ROI, and social ad creative testing.",
+      "videoUrl": "",
+      "durationMinutes": 22,
+      "pdfTitle": "Campaign_Analytics_Sheet.pdf",
+      "pdfSummary": "Weekly campaign KPI tracking sheet.",
+      "practicalExercise": "Calculate conversion rate across a 3-stage funnel.",
+      "orderIndex": 2,
+      "isFreePreview": false
+    }
+  ],
+  "enrolments": [
+    {
+      "id": "enr-1",
+      "studentId": "usr-stu-1",
+      "courseId": "crs-1",
+      "status": "ACTIVE",
+      "progressPercent": 40,
+      "completedLessonIds": [
+        "les-1",
+        "les-2"
+      ],
+      "lastLessonId": "les-3",
+      "driveAccessEmail": "kofi.student@ektechsolutions.com",
+      "driveAccessGrantedAt": "2026-10-18T10:00:00.000Z",
+      "enrolledAt": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "id": "enr-2",
+      "studentId": "usr-stu-1",
+      "courseId": "crs-7",
+      "status": "COMPLETED",
+      "progressPercent": 100,
+      "completedLessonIds": [
+        "les-17",
+        "les-18"
+      ],
+      "lastLessonId": "les-18",
+      "enrolledAt": "2026-09-14T12:00:00.000Z",
+      "completedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "id": "enr-3",
+      "studentId": "usr-stu-2",
+      "courseId": "crs-4",
+      "status": "ACTIVE",
+      "progressPercent": 50,
+      "completedLessonIds": [
+        "les-11"
+      ],
+      "lastLessonId": "les-12",
+      "enrolledAt": "2026-10-20T09:15:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1",
+      "studentId": "usr-stu-1",
+      "courseId": "crs-1",
+      "fullName": "Kofi Agyemang",
+      "email": "kofi.student@ektechsolutions.com",
+      "amountGhs": 50,
+      "senderPhone": "0552345678",
+      "transactionId": "MP261018.0942.B84120",
+      "paymentDate": "2026-10-18",
+      "status": "APPROVED",
+      "adminNote": "Verified GH₵ 50 on MTN MoMo statement; Drive videos unlocked for sign-up email.",
+      "reviewedBy": "usr-admin-1",
+      "reviewedAt": "2026-10-18T10:00:00.000Z",
+      "createdAt": "2026-10-18T09:45:00.000Z"
+    },
+    {
+      "id": "pay-2",
+      "studentId": "usr-stu-2",
+      "courseId": "crs-4",
+      "fullName": "Ama Serwaa",
+      "email": "ama.student@ektechsolutions.com",
+      "amountGhs": 100,
+      "senderPhone": "0548765432",
+      "transactionId": "MP261020.0850.C19402",
+      "paymentDate": "2026-10-20",
+      "status": "APPROVED",
+      "adminNote": "Confirmed payment received.",
+      "reviewedBy": "usr-admin-1",
+      "reviewedAt": "2026-10-20T09:15:00.000Z",
+      "createdAt": "2026-10-20T08:55:00.000Z"
+    },
+    {
+      "id": "pay-3",
+      "studentId": "usr-stu-1",
+      "courseId": "crs-2",
+      "fullName": "Kofi Agyemang",
+      "email": "kofi.student@ektechsolutions.com",
+      "amountGhs": 50,
+      "senderPhone": "0552345678",
+      "transactionId": "MP261115.1422.A77319",
+      "paymentDate": "2026-11-15",
+      "status": "PENDING",
+      "createdAt": "2026-11-15T14:25:00.000Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asg-1",
+      "courseId": "crs-1",
+      "title": "Capstone: Business Website Specification, Live Build & Hosting",
+      "instructions": "Build a responsive multi-section website for a real or simulated business, host it online, and submit your architecture notes and live URL.",
+      "dueDate": "2026-12-05",
+      "maxScore": 100,
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "asg-2",
+      "courseId": "crs-2",
+      "title": "45-Second Product Commercial Edit",
+      "instructions": "Submit your script breakdown, scene prompts, and final exported commercial video link with balanced voiceover audio.",
+      "dueDate": "2026-12-10",
+      "maxScore": 100,
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1",
+      "assignmentId": "asg-1",
+      "courseId": "crs-1",
+      "studentId": "usr-stu-1",
+      "submissionText": "Built a responsive website prototype for Gold Coast Logistics featuring a clean 3-zone header, service grid, and quote inquiry form.",
+      "projectUrl": "https://goldcoast-logistics-demo.vercel.app",
+      "status": "GRADED",
+      "score": 92,
+      "feedback": "Excellent typographic hierarchy and clean form validation. Consider tightening mobile card padding slightly below 400px.",
+      "submittedAt": "2026-11-05T15:00:00.000Z",
+      "gradedAt": "2026-11-07T11:20:00.000Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "qiz-1",
+      "courseId": "crs-1",
+      "title": "AI Website Development Fundamentals Quiz",
+      "description": "Verify your understanding of layout specifications, responsive design, and hosting.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which element should appear in the top navigation bar for clear visual hierarchy?",
+          "options": [
+            "Brand wordmark, 4–5 concise navigation links, and 1 primary action button",
+            "As many status tickers and secondary banners as possible",
+            "Full paragraphs of company history",
+            "Multiple competing primary buttons in different colors"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "q2",
+          "prompt": "Why should sensitive API keys never be stored in client-side React code?",
+          "options": [
+            "React does not support strings",
+            "Client-side bundles are publicly readable in the browser",
+            "It slows down CSS animations",
+            "Hosting platforms reject environment files"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "q3",
+          "prompt": "What is the recommended minimum touch target height for interactive mobile buttons?",
+          "options": [
+            "18px",
+            "24px",
+            "44px",
+            "120px"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "qiz-2",
+      "courseId": "crs-7",
+      "title": "Digital Skills & Online Safety Assessment",
+      "description": "Check your mastery of cloud productivity, spreadsheet formulas, and MoMo security.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "q4",
+          "prompt": "Which spreadsheet function calculates the total of cells B2 through B12?",
+          "options": [
+            "=ADD(B2:B12)",
+            "=SUM(B2:B12)",
+            "=COUNT(B2:B12)",
+            "=TOTAL(B2:B12)"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "q5",
+          "prompt": "What should you NEVER share with anyone claiming to be support staff?",
+          "options": [
+            "Your course title",
+            "Your Mobile Money PIN or one-time verification code",
+            "Your public business name",
+            "Your academy support ticket subject"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    }
+  ],
+  "quizAttempts": [
+    {
+      "id": "qat-1",
+      "quizId": "qiz-2",
+      "courseId": "crs-7",
+      "studentId": "usr-stu-1",
+      "answers": [
+        1,
+        1
+      ],
+      "scorePercent": 100,
+      "passed": true,
+      "attemptedAt": "2026-10-02T15:20:00.000Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "crt-1",
+      "certificateNumber": "EKTS-2026-00412",
+      "studentId": "usr-stu-1",
+      "courseId": "crs-7",
+      "studentName": "Kofi Agyemang",
+      "courseTitle": "Digital Skills & Computer Training Essentials",
+      "instructorName": "Emmanuel Sansah",
+      "issuedAt": "2026-10-02T15:30:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not-1",
+      "userId": "usr-admin-1",
+      "title": "New MTN MoMo Payment Pending Verification",
+      "message": "Kofi Agyemang submitted GH₵ 50 for AI Video Creation & Commercial Editing (TxID: MP261115.1422.A77319).",
+      "type": "PAYMENT",
+      "isRead": false,
+      "createdAt": "2026-11-15T14:25:00.000Z"
+    },
+    {
+      "id": "not-2",
+      "userId": "usr-stu-1",
+      "title": "Assignment Graded: 92 / 100",
+      "message": "Emmanuel Sansah graded your Capstone Business Website submission with feedback.",
+      "type": "GRADE",
+      "isRead": false,
+      "createdAt": "2026-11-07T11:20:00.000Z"
+    },
+    {
+      "id": "not-3",
+      "userId": "usr-stu-1",
+      "title": "Certificate Issued",
+      "message": "Your certificate EKTS-2026-00412 for Digital Skills & Computer Training Essentials is ready to download.",
+      "type": "ENROLMENT",
+      "isRead": true,
+      "createdAt": "2026-10-02T15:30:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "usr-stu-1",
+      "senderName": "Kofi Agyemang",
+      "senderEmail": "kofi.student@ektechsolutions.com",
+      "recipientRole": "ADMIN",
+      "subject": "Confirmation on AI Video Creation MoMo Transfer",
+      "body": "Hello Emmanuel Sansah, I just sent GH₵ 50 to 0551464715 and submitted Transaction ID MP261115.1422.A77319. Kindly confirm and unlock the rest of the videos on my sign-up email.",
+      "status": "OPEN",
+      "createdAt": "2026-11-15T14:28:00.000Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "AI Website Learning & Video Creation Now GH₵ 50 Each",
+      "message": "Watch Lesson 1 free immediately upon login. Pay GH₵ 50 via MTN Mobile Money (0551464715) to unlock all remaining tutorials and Google Drive video access on your sign-up email with Emmanuel Sansah.",
+      "audience": "ALL",
+      "authorId": "usr-admin-1",
+      "createdAt": "2026-11-10T08:00:00.000Z"
+    }
+  ],
+  "website": {
+    "heroHeadline": "Master the Future with Artificial Intelligence.",
+    "heroSubheadline": "EK TECH SOLUTIONS equips ambitious learners across Ghana and beyond with practical training in AI Website Development (GH₵ 50), AI Video Creation (GH₵ 50), Prompt Engineering, and Modern Software Skills.",
+    "aboutTitle": "Practical Technology Education Built for Real Outcomes",
+    "aboutMission": "To make world-class artificial intelligence, website development, and AI video creation skills accessible through structured online tutorials, hands-on projects, and direct mentorship from Emmanuel Sansah.",
+    "aboutVision": "Raising a generation of African and global builders who do not just consume technology, but design, automate, and ship meaningful digital products.",
+    "announcementBanner": "Watch Lesson 1 Free on Sign-In — AI Website Learning & AI Video Creation are now GH₵ 50 each via MTN MoMo (0551464715).",
+    "testimonials": [
+      {
+        "id": "tes-1",
+        "name": "Kofi Agyemang",
+        "role": "Freelance Web Designer",
+        "organization": "Tema Digital Studio",
+        "courseCompleted": "AI Website Development Mastery",
+        "quote": "Watching the free Lesson 1 convinced me immediately. After my GH₵ 50 MoMo payment was confirmed on my sign-up email, I followed the detailed Google Drive tutorials and delivered two paid client websites."
+      },
+      {
+        "id": "tes-2",
+        "name": "Ama Serwaa",
+        "role": "Marketing Coordinator",
+        "organization": "Accra Retail Collective",
+        "courseCompleted": "Applied Prompt Engineering Studio",
+        "quote": "Emmanuel Sansah explains everything clearly step by step. The prompt engineering templates cut our campaign copywriting and reporting time in half."
+      },
+      {
+        "id": "tes-3",
+        "name": "Daniel Owusu",
+        "role": "Content Producer",
+        "organization": "Kumasi Media House",
+        "courseCompleted": "AI Video Creation & Commercial Editing",
+        "quote": "For just GH₵ 50, the AI Video Creation course transformed how we produce commercial adverts for local businesses."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "faq-1",
+        "category": "Enrolment & Payments",
+        "question": "How do I unlock the rest of the videos after watching the free Lesson 1?",
+        "answer": "Every newly registered or signed-in student can watch Lesson 1 (1 MUST WATCH) completely free. To unlock the remaining course videos and receive Google Drive access on your sign-up email, send GH₵ 50 (for AI Website Development or AI Video Creation) to MTN Mobile Money 0551464715 (EK TECH SOLUTIONS) and submit your Transaction ID inside your dashboard."
+      },
+      {
+        "id": "faq-2",
+        "category": "Learning Format",
+        "question": "Why do I need to use my sign-up email for payment verification?",
+        "answer": "Once our administrator verifies your Mobile Money transfer, access to the remaining premium course videos in Instructor Emmanuel Sansah’s Google Drive library (emmanuelsansah020@gmail.com) is granted directly to your registered sign-up email address."
+      },
+      {
+        "id": "faq-3",
+        "category": "Verification & Access",
+        "question": "How long does Mobile Money payment verification take?",
+        "answer": "Payments are manually verified by our administration team to protect students and prevent duplicate transaction IDs. Verification typically completes within 15 minutes to 2 hours, and you can also message 0551464715 on WhatsApp for urgent assistance."
+      },
+      {
+        "id": "faq-4",
+        "category": "Certificates",
+        "question": "Do I receive a certificate after completing a course?",
+        "answer": "Yes. Upon completing all required lessons and passing the course quiz or practical assessment, an official EK TECH SOLUTIONS certificate signed by Emmanuel Sansah is issued in your Student Dashboard."
+      },
+      {
+        "id": "faq-5",
+        "category": "Prerequisites",
+        "question": "Do I need coding experience before joining AI Website Development?",
+        "answer": "No prior programming background is required. Emmanuel Sansah walks you step by step from the free intro video through building, hosting, custom domains, and troubleshooting."
+      }
+    ]
+  },
+  "settings": {
+    "academyName": "EK TECH SOLUTIONS",
+    "tagline": "Learn Technology. Build with AI. Create the Future.",
+    "momoBusinessName": "EK TECH SOLUTIONS",
+    "momoNumber": "0551464715",
+    "whatsappNumber": "0551464715",
+    "supportEmail": "emmanuelsansah020@gmail.com",
+    "currency": "GH₵",
+    "allowPublicRegistration": true,
+    "paymentGatewayMode": "MANUAL_MOMO"
+  },
+  "otpChallenges": [],
+  "securityLogs": [
+    {
+      "id": "sec-mwly5054-xl3px",
+      "timestamp": "2026-11-18T09:56:14.968Z",
+      "event": "LOGIN_ADMIN_PASSWORD_ONLY",
+      "severity": "INFO",
+      "actorEmail": "admin@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "127.0.0.1",
+      "details": "Admin logged in directly using password \"admin\".",
+      "previousHash": "cf410bf27c080197bb000266abf688b478438806452a9137a1c4ce5048ac7845",
+      "entryHash": "4f2c88c97406cef338dd6afdb8e45cc98623771a59715eb9c7d12a133db6b6e4"
+    },
+    {
+      "id": "sec-genesis",
+      "timestamp": "2026-10-15T09:00:00.000Z",
+      "event": "CIA_SECURITY_INITIALIZED",
+      "severity": "INFO",
+      "actorEmail": "system@ektechsolutions.com",
+      "actorRole": "SUPER_ADMIN",
+      "ipAddress": "127.0.0.1",
+      "details": "Initialized scrypt password hashing, Email 2FA enforcement, SHA-256 audit chain, and rate limiting.",
+      "previousHash": "GENESIS",
+      "entryHash": "cf410bf27c080197bb000266abf688b478438806452a9137a1c4ce5048ac7845"
+    }
+  ],
+  "integrityChecksum": "c70202fe1bf17f6f44bf3ea18314b0bc96b0accff58c29163d791b8799201da2"
+}

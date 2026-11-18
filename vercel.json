@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 30,
+      "includeFiles": "{data/lms-db.json,supabase/*.sql}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!api/|assets/|src/|.*\\.(?:js|css|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|mp4|webm|mov|woff|woff2|ttf|eot|json|txt|xml|pdf)$).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
